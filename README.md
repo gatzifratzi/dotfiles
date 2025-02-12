@@ -1,1 +1,0 @@
-konfigurationsdateien für meine apps
