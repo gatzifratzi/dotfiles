@@ -10,7 +10,6 @@
 // command pallete ist cmd + shift + p
 {
     //STANDARD SACHEN
-    "icon_theme": "Material Icon Theme",
     "vim_mode": true,
     "relative_line_numbers": true,
     "base_keymap": "VSCode",
@@ -20,12 +19,8 @@
     "soft_wrap": "bounded",
     "preferred_line_length": 100,
     "current_line_highlight": "all",
-    "features": {
-        "edit_prediction_provider": "zed"
-    },
     "when_closing_with_no_tabs": "close_window",
     "use_system_path_prompts": false,
-
     "diagnostics": {
         "include_warnings": true
     },
@@ -48,6 +43,7 @@
         "editor.line_number": "#f5e0dc90",
         "editor.active_line_number": "#FFFFFFFF"
     },
+    "icon_theme": "Material Icon Theme",
 
     //Fonts
     "cursor_shape": "bar",
@@ -172,6 +168,10 @@
             "provider": "google",
             "model": "gemini-2.0-flash-lite-preview"
         }
+    },
+
+    "features": {
+        "edit_prediction_provider": "zed"
     },
 
     "inlay_hints": {
