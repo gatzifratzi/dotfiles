@@ -1,0 +1,8 @@
+/* Meine Änderungen and der Natsumi Browser Userchrome.css, falls die durch ein submodule update überschrieben werden.
+*/
+
+@import "natsumi/natsumi.css";
+
+#zen-essentials-container {
+    grid-template-columns: repeat(3, 1fr) !important;
+}
