@@ -32,8 +32,8 @@ keymap = [
     { on = [
         "g",
         "g",
-    ], run = "arrow top", desc = "Move cursor to the top" },
-    { on = "G", run = "arrow bot", desc = "Move cursor to the bottom" },
+    ], run = "arrow top", desc = "cursor top" },
+    { on = "G", run = "arrow bot", desc = "cursor bottom" },
 
     # Navigation
     { on = "h", run = "leave", desc = "Go back to the parent directory" },
@@ -90,6 +90,14 @@ keymap = [
     { on = "<C-s>", run = "escape --search", desc = "Cancel the ongoing search" },
     { on = "z", run = "plugin zoxide", desc = "Jump to a directory via zoxide" },
     { on = "Z", run = "plugin fzf", desc = "Jump to a file/directory via fzf" },
+    { on = [
+        "g",
+        "<Space>",
+    ], run = "plugin zoxide", desc = "zoxide" },
+    { on = [
+        "g",
+        "f",
+    ], run = "plugin fzf", desc = "fzf" },
 
     # Linemode
     { on = [
@@ -125,7 +133,7 @@ keymap = [
     { on = [
         "c",
         "d",
-    ], run = "copy dirname", desc = "Copy directory path" },
+    ], run = "copy dirname", desc = "Copy dir path" },
     { on = [
         "c",
         "f",
@@ -220,27 +228,27 @@ keymap = [
     { on = [
         "g",
         "h",
-    ], run = "cd ~", desc = "Go home" },
+    ], run = "cd ~", desc = "goto Home" },
     { on = [
         "g",
         "c",
-    ], run = "cd ~/.dotfiles", desc = "Goto dotfiles" },
+    ], run = "cd ~/.dotfiles", desc = "goto dotfiles" },
     { on = [
         "g",
         "d",
-    ], run = "cd ~/Downloads", desc = "Goto Downloads" },
+    ], run = "cd ~/Downloads", desc = "goto Downloads" },
     { on = [
         "g",
-        "<Space>",
+        "i",
     ], run = "cd --interactive", desc = "Jump interactively" },
     { on = [
         "g",
         "s",
-    ], run = "cd ~/Developer/3WiSe24", desc = "Goto Semeseter" },
+    ], run = "cd ~/Developer/3WiSe24", desc = "goto Semeseter" },
     { on = [
         "g",
         "v",
-    ], run = "cd /Volumes/JakobExtern", desc = "Goto Volumes" },
+    ], run = "cd /Volumes/JakobExtern", desc = "goto Volumes" },
 
     # Tabs
     { on = "t", run = "tab_create --current", desc = "Create a new tab with CWD" },
