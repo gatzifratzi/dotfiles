@@ -31,7 +31,7 @@ ueberzug_offset = [0, 0, 0, 0]
 
 [opener]
 edit = [
-    { run = '${EDITOR:-zed} "$@"', desc = "$EDITOR", block = true, orphan = true, for = "macos" },
+    { run = '${EDITOR:-zed} "$@"', desc = "zed", block = true, orphan = true, for = "macos" },
     { run = '${EDITOR:-vi} "$@"', desc = "$EDITOR", block = true, for = "linux" },
     { run = 'code %*', orphan = true, desc = "code", for = "windows" },
     { run = 'code -w %*', block = true, desc = "code (block)", for = "windows" },
@@ -47,11 +47,14 @@ reveal = [
     { run = 'explorer /select,"%1"', orphan = true, desc = "Reveal", for = "windows" },
     { run = '''exiftool "$1"; echo "Press enter to exit"; read _''', block = true, desc = "Show EXIF", for = "unix" },
 ]
+
 extract = [
     { run = 'unzip "$@"', desc = "Extract here", for = "macos" },
     { run = 'ya pub extract --list "$@"', desc = "Extract here", for = "linux" },
     { run = 'ya pub extract --list %*', desc = "Extract here", for = "windows" },
 ]
+
+zip = [{ run = 'zip -r -X "$@".zip .', desc = "zip folder", for = "macos" }]
 
 playVideo = [
     { run = 'iina --no-stdin "$@"', orphan = true, for = "macos" },
@@ -73,6 +76,7 @@ rules = [
     { name = "*/", use = [
         "edit",
         "open",
+        "zip",
         "reveal",
     ] },
     # Text
