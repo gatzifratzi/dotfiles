@@ -10,6 +10,7 @@
 // command pallete ist cmd + shift + p
 {
     //STANDARD SACHEN
+    "show_edit_predictions": false,
     "vim_mode": true,
     "relative_line_numbers": true,
     "base_keymap": "VSCode",
@@ -202,6 +203,7 @@
 
     "languages": {
         "Haskell": {
+            "show_edit_predictions": false,
             "enable_language_server": true,
             "language_servers": ["hls", "..."],
             "formatter": "language_server"
@@ -239,6 +241,10 @@
         "CSS": {
             "enable_language_server": true,
             "language_servers": ["tailwindcss-language-server", "..."],
+            "formatter": "prettier"
+        },
+        "TOML": {
+            "enable_language_server": true,
             "formatter": "prettier"
         }
     },

@@ -127,8 +127,12 @@ keymap = [
 
     # Copy
     { on = [
+            "c",
+            "c",
+        ], run = 'osascript -e "set the clipboard to (POSIX file \"$PWD/$1\")"' , desc = "Copy path" },
+    { on = [
         "c",
-        "c",
+        "s",
     ], run = "copy path", desc = "Copy path" },
     { on = [
         "c",
