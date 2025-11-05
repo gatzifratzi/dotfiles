@@ -1,0 +1,96 @@
+// Static tasks configuration.
+[
+    //Latex Task
+    // Task to compile with Tectonic and then view in Skim
+    // neu compilen und in skim angucken
+    {
+        "label": "tectonic_skim",
+        "command": "cd $ZED_DIRNAME && tectonic -X compile $ZED_FILENAME --synctex --outfmt pdf && /Applications/Skim.app/Contents/SharedSupport/displayline -b -r $ZED_ROW $ZED_STEM.pdf $ZED_FILENAME",
+        "allow_concurrent_runs": false,
+        "reveal": "no_focus", //
+        "hide": "on_success", // Blende das Task-Panel bei Erfolg aus
+        "tags": ["latex-build"] // Nützliche Tags zur Organisation
+    },
+    // für preview in skim
+    // nur in skim angucken und nicht neu compilen
+    {
+        "label": "forward_search_skim",
+        "command": "/Applications/Skim.app/Contents/SharedSupport/displayline -b -r $ZED_ROW $ZED_DIRNAME/$ZED_STEM.pdf $ZED_FILENAME",
+        "allow_concurrent_runs": false,
+        "reveal": "no_focus",
+        "hide": "on_success",
+        "tags": ["latex-build"]
+    },
+
+    // ---TASKS FUER R REPL --
+    //
+    {
+        "label": "R Terminal",
+        "command": "R", // You could also use [radian](https://github.com/randy3k/radian)
+        "cwd": "$ZED_WORKTREE_ROOT",
+        "use_new_terminal": true
+    },
+    {
+        "label": "Install local R package",
+        "command": "R CMD INSTALL .",
+        "cwd": "$ZED_WORKTREE_ROOT",
+        "use_new_terminal": false,
+        "allow_concurrent_runs": false,
+        "reveal": "always",
+        "show_summary": true,
+        "show_output": true,
+        "show_error": true
+    },
+    {
+        "label": "Document local R package",
+        "command": "Rscript -e \"devtools::document(roclets = c('rd', 'collate', 'namespace'))\"",
+        "cwd": "$ZED_WORKTREE_ROOT",
+        "use_new_terminal": false,
+        "allow_concurrent_runs": false
+    },
+    {
+        "label": "Check local R package",
+        "command": "Rscript -e \"devtools::check()\"",
+        "cwd": "$ZED_WORKTREE_ROOT",
+        "use_new_terminal": false,
+        "allow_concurrent_runs": false
+    },
+    {
+        "label": "Run all R tests",
+        "command": "Rscript -e \"testthat::test_dir('tests/testthat')\"",
+        "cwd": "$ZED_WORKTREE_ROOT",
+        "use_new_terminal": false,
+        "allow_concurrent_runs": false,
+        "reveal": "always",
+        "show_summary": true,
+        "show_output": true
+    },
+    {
+        "label": "Run current R file test",
+        "command": "Rscript -e \"testthat::test_file('$ZED_RELATIVE_FILE')\"",
+        "cwd": "$ZED_WORKTREE_ROOT",
+        "use_new_terminal": false,
+        "allow_concurrent_runs": false,
+        "reveal": "always",
+        "show_summary": true,
+        "show_output": true
+    },
+    {
+        "label": "Run test_that test", // Can be triggered, without a keyboard shortcut
+        // or clicking on the run button, by toggling the code action menu (Ctrl+.)
+        "command": "Rscript",
+        "cwd": "$ZED_WORKTREE_ROOT",
+        "args": ["-e", "\"testthat::test_file(\\\"${ZED_FILE}\\\", desc = \\\"${ZED_CUSTOM_desc}\\\")\""],
+        "tags": ["r-test"]
+    },
+    {
+        "label": "Source current file",
+        "command": "Rscript -e \"source('$ZED_RELATIVE_FILE', echo = TRUE)\"",
+        "cwd": "$ZED_WORKTREE_ROOT",
+        "use_new_terminal": false,
+        "allow_concurrent_runs": false,
+        "reveal": "always",
+        "show_summary": true,
+        "show_output": true
+    }
+]

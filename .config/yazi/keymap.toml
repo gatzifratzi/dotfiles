@@ -1,0 +1,114 @@
+# A TOML linter such as https://taplo.tamasfe.dev/ can use this schema to validate your config.
+# If you encounter any issues, please make an issue at https://github.com/yazi-rs/schemas.
+"$schema" = "https://yazi-rs.github.io/schemas/keymap.json"
+
+[mgr]
+prepend_keymap = [
+    # PLUGINS
+    # Mount Plugin
+    { on = "M", run = "plugin mount" },
+    #toggle-pane-plugin
+    { on = [
+        "b",
+        "b",
+    ], run = "plugin toggle-pane max-preview", desc = "max preview" },
+    { on = [
+        "b",
+        "n",
+    ], run = "plugin toggle-pane min-preview", desc = "hide preview" },
+    #system-clipboard Plugin
+    { on = [
+        "c",
+        "c",
+    ], run = "plugin system-clipboard", desc = "copy file to system" },
+    #Plugin relative-motions (gt bei tabs) (https://github.com/dedukun/relative-motions.yazi)
+    { on = "1", run = "plugin relative-motions 1", desc = "Move in relative steps" },
+    { on = "2", run = "plugin relative-motions 2", desc = "Move in relative steps" },
+    { on = "3", run = "plugin relative-motions 3", desc = "Move in relative steps" },
+    { on = "4", run = "plugin relative-motions 4", desc = "Move in relative steps" },
+    { on = "5", run = "plugin relative-motions 5", desc = "Move in relative steps" },
+    { on = "6", run = "plugin relative-motions 6", desc = "Move in relative steps" },
+    { on = "7", run = "plugin relative-motions 7", desc = "Move in relative steps" },
+    { on = "8", run = "plugin relative-motions 8", desc = "Move in relative steps" },
+    { on = "9", run = "plugin relative-motions 9", desc = "Move in relative steps" },
+
+    #CUSTOM KEYBINDS
+
+    #macos preview nutzen
+    { on = "<C-p>", run = 'shell -- qlmanage -p "$@"', desc = "Macos preview" },
+    # g-r bringt einen ins root vom git rep
+    { on = [
+        "g",
+        "r",
+    ], run = 'shell -- ya emit cd "$(git rev-parse --show-toplevel)"', desc = "root git" },
+
+    # Operation
+    { on = "o", run = "open --interactive", desc = "Open selected files interactively" },
+    { on = "O", run = "open", desc = "Open selected files" },
+
+    # Copy
+    { on = [
+        "c",
+        "p",
+    ], run = "copy path", desc = "filepath" },
+    { on = [
+        "c",
+        "<S-p>",
+    ], run = "copy dirname", desc = "dirpath" },
+    { on = [
+        "c",
+        "f",
+    ], run = "copy filename", desc = "filename" },
+    { on = [
+        "c",
+        "n",
+    ], run = "copy name_without_ext", desc = "name w/o extension" },
+    {on = [
+    "c",
+    "d",
+    ], run = 'shell -- zed --diff "$1" "$0"', desc = "diff with zed"},
+    {on = [
+    "c",
+    "<S-c>"
+    ], run = 'shell -- cat "$0" | pbcopy', desc = "copy content"},
+
+    # Goto
+    # g-r bringt einen ins root vom git rep
+    { on = [
+        "g",
+        "r",
+    ], run = 'shell -- ya emit cd "$(git rev-parse --show-toplevel)"', desc = "root git" },
+
+    { on = [
+        "g",
+        "h",
+    ], run = "cd ~", desc = "Home" },
+    { on = [
+        "g",
+        "c",
+    ], run = "cd ~/dotfiles", desc = "dotfiles" },
+    { on = [
+        "g",
+        "x",
+    ], run = "cd ~/dotfiles-private", desc = "private-dotfiles" },
+    { on = [
+        "g",
+        "d",
+    ], run = "cd ~/Downloads", desc = "Downloads" },
+    { on = [
+        "g",
+        "s",
+    ], run = "cd ~/Developer/5WiSe25", desc = "Semeseter" },
+    { on = [
+        "g",
+        "v",
+    ], run = "cd /Volumes", desc = "Volumes" },
+    { on = [
+        "g",
+        "m",
+    ], run = "cd ~/Movies", desc = "Movies" },
+    { on = [
+        "g",
+        "p",
+    ], run = "cd ~/Pictures", desc = "Pictures" },
+]

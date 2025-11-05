@@ -1,0 +1,30 @@
+# Comments and blank lines are allowed.
+
+RCS
+.+,v
+
+CVS
+/.cvsignore
+
+/.svn
+_darcs
+/.hg
+
+/.git
+/.gitignore
+/.gitmodules
+/.github
+
+/README.*
+/LICENSE.*
+/LICENSE
+/COPYING
+/README.md
+
+# der font folder
+/fonts
+
+# Stats settings file
+Stats.plist
+
+.DS_Store
