@@ -23,6 +23,7 @@
     - `brew install --cask font-miracode`
 - [Atkinson Hyperlegible](https://www.brailleinstitute.org/freefont/) propo font
     - `brew install --cask font-atkinson-hyperlegible-next`
+    - `brew install --cask font-atkinson-hyperlegible-mono`
 # Homebrew sachen
 
 ## Casks
