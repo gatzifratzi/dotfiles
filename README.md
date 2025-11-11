@@ -27,22 +27,24 @@
 # Homebrew sachen
 
 ## Casks
-- ghostty
-- google-drive
-- iina
-- itsycal
 - middleclick
-- nordvpn
-- obsidian
+- boring-notch
+- stats
 - pika
-- rstudio
+- ghostty
+- helium-browser
+- zen
+- zed
+- obsidian
 - skim
 - spotify
-- stats
+- rstudio
+- google-drive
+- iina
 - transmission
-- zed
-- zen
+- nordvpn (maybe appstore version)
 - (unnaturalscrollwheel)
+- itsycal(geht auf m4 irgendwie nicht)
 
 ## formulae
 - stow
@@ -70,10 +72,5 @@
 # MacStore Sachen
 - Xcode
 - Whatsapp
-- Maccy (maybe obsolete mit Macos26)
 - Goodnotes
-
-# Zed Keybinds die man leicht vergisst
-- `shift-esc` vollbild
-- `cmd-/` toggled comment fuer aktuelles file
-- meine keymap hoehoe
+- Maccy (maybe obsolete mit Macos26)
