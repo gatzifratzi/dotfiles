@@ -8,10 +8,6 @@
 ### key repeat
 - `defaults write -g ApplePressAndHoldEnabled -bool false`
 
-### macht die scheiss .\_\* files weg: (funktioniert nicht ich bin sauer)
-
-- `defaults write com.apple.desktopservices DSDontWriteNetworkStores true`
-
 # coole fonts:
 
 - [Monaspace](https://monaspace.githubnext.com/) die beste font family die ich je gefunden habe
