@@ -1,9 +1,10 @@
-import fontforge
 import os
 import sys
 
+import fontforge
+
 # Define the new combined font family name
-NEW_FONT_FAMILY_NAME = "jakobsXenon"
+NEW_FONT_FAMILY_NAME = "jakobsRedaction"
 
 def set_sfnt_names(font, family_name, sub_family_name, unique_id, full_name, postscript_name):
     """
@@ -133,8 +134,9 @@ def merge_otf_to_otc(input_font_configs, output_otc_path):
         print("All font files closed.")
 
 if __name__ == "__main__":
-    fonts_dir = "/Users/jakob/dotties/fonts/input/"
-    output_dir = "/Users/jakob/dotties/fonts/output/"
+    script_dir = os.path.dirname(os.path.realpath(sys.argv[0]))
+    fonts_dir = os.path.join(script_dir, "input")
+    output_dir = os.path.join(script_dir, "output")
 
     # Ensure the output directory exists
     os.makedirs(output_dir, exist_ok=True)
