@@ -17,9 +17,10 @@
     - `brew install --cask font-monocraft` nicht nerd font fuer zen interface
 - [Miracode](https://github.com/IdreesInc/Miracode) wie Monocraft nur nicht pixelig
     - `brew install --cask font-miracode`
-- [Atkinson Hyperlegible](https://www.brailleinstitute.org/freefont/) propo font
+- [Atkinson Hyperlegible](https://www.brailleinstitute.org/freefont/) san Serif propo font
     - `brew install --cask font-atkinson-hyperlegible-next`
     - `brew install --cask font-atkinson-hyperlegible-mono`
+- [Redaction](https://www.redaction.us/) Serif Propo font
 # Homebrew sachen
 
 ## Casks

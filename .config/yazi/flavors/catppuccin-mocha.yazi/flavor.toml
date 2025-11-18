@@ -70,8 +70,8 @@ perm_exec  = { fg = "#a6e3a1" }
 
 # Progress
 progress_label  = { fg = "#ffffff", bold = true }
-progress_normal = { fg = "#89b4fa", bg = "#45475a" }
-progress_error  = { fg = "#89b4fa", bg = "#f38ba8" }
+progress_normal = { fg = "#a6e3a1", bg = "#45475a" }
+progress_error  = { fg = "#f9e2af", bg = "#f38ba8" }
 
 # : }}}
 
@@ -174,7 +174,7 @@ rules = [
 	# Document
 	{ mime = "application/{pdf,doc,rtf}", fg = "#a6e3a1" },
 	# Virtual file system
-	{ mime = "vfs/*", fg = "#9399b2" },
+	{ mime = "vfs/{absent,stale}", fg = "#9399b2" },
 	# Fallback
 	{ url = "*", fg = "#cdd6f4" },
 	{ url = "*/", fg = "#89b4fa" },
