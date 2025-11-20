@@ -78,8 +78,8 @@ function y() {
 }
 
 # --- tetris ---
-export PATH="/Users/jakob/.local/bin:$PATH"
-alias tetris="tetris --preview-chars '[]'"
+# export PATH="/Users/jakob/.local/bin:$PATH"
+# alias tetris="tetris --preview-chars '[]'"
 
 # --- aliasse und keybinds ---
 alias zedi='zed $(fzf -m --preview="bat --color=always {}")' #oeffne file in zed editor

@@ -4,7 +4,7 @@ import sys
 import fontforge
 
 # Define the new combined font family name
-NEW_FONT_FAMILY_NAME = "jakobsRedaction"
+NEW_FONT_FAMILY_NAME = "jakobsArgon"
 
 def set_sfnt_names(font, family_name, sub_family_name, unique_id, full_name, postscript_name):
     """

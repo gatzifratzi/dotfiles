@@ -60,7 +60,6 @@
 - fd
 - ripgrep
 - ffmpeg
-- r
 - btop
 - clipboard (yazi plugin)
 - fontforge

@@ -20,17 +20,17 @@ window-theme = auto
 window-width = 70
 window-height = 25
 window-new-tab-position = current
-window-step-resize = false
-window-decoration = true
-window-position-x = 610
-window-position-y = -270
+window-step-resize = true
+window-decoration = auto
+window-position-x = 50
+window-position-y = 50
 window-save-state = never
 
-background-opacity = 0.75
-unfocused-split-opacity = 0.65
-background-blur-radius = 5
-window-padding-x = 10,10
-window-padding-y = 3,3
+background-opacity = 0.9
+unfocused-split-opacity = 0.8
+background-blur = 7
+window-padding-x = 5,5
+window-padding-y = 0,0
 window-padding-balance = true
 # damit text nicht unsichtbar sein kann
 minimum-contrast = 1.1
