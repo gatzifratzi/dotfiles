@@ -22,8 +22,8 @@ window-height = 25
 window-new-tab-position = current
 window-step-resize = true
 window-decoration = auto
-window-position-x = 50
-window-position-y = 50
+window-position-x = 25
+window-position-y = 25
 window-save-state = never
 
 background-opacity = 0.9

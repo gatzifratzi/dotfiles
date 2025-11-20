@@ -133,7 +133,7 @@
         "inline_blame": {
             "enabled": true,
             "show_commit_summary": false,
-            "padding": 32
+            "padding": 8
         },
         "blame": {
             "show_avatar": true
