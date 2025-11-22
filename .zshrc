@@ -5,7 +5,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # --- ghcup (haskell)---
-[ -f "/Users/jakob/.ghcup/env" ] && . "/Users/jakob/.ghcup/env" # ghcup-envsourcesource
+# [ -f "/Users/jakob/.ghcup/env" ] && . "/Users/jakob/.ghcup/env" # ghcup-envsourcesource
 
 # --- pyenv (python)---
 export PYENV_ROOT="$HOME/.pyenv"
@@ -13,10 +13,10 @@ export PYENV_ROOT="$HOME/.pyenv"
 eval "$(pyenv init - zsh)"
 
 # --- ruby ---
-if [ -d "/opt/homebrew/opt/ruby/bin" ]; then
-  export PATH=/opt/homebrew/opt/ruby/bin:$PATH
-  export PATH=`gem environment gemdir`/bin:$PATH
-fi
+# if [ -d "/opt/homebrew/opt/ruby/bin" ]; then
+#   export PATH=/opt/homebrew/opt/ruby/bin:$PATH
+#   export PATH=`gem environment gemdir`/bin:$PATH
+# fi
 
 # --- p10k theme ---
 source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
