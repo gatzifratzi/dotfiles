@@ -142,6 +142,7 @@
 
     //Wo und wie wird was im UI angezeigt
     "git_panel": {
+        "sort_by_path": true, //die settings mal bischen testen. ich wiess nicht ob ich die sortierung nach tracked/untracked brauche und dann ist die ja cooler.
         "status_style": "icon",
         "dock": "left",
         "default_width": 512

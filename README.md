@@ -54,7 +54,7 @@
 - zsh-sytax-highlighting
 - neovim
 - bat
-- pyenv
+- pyenv (dann python 3.13.9)
 - openjdk
 - tectonic
 - fd
@@ -69,3 +69,23 @@
 - Whatsapp
 - Goodnotes
 - Maccy (maybe obsolete mit Macos26)
+
+# Zed Extension
+- Html
+- toml
+- git firefly
+- ruby
+- catpuccin items
+- make
+- latex
+- lua
+- log
+- python lsp
+- blad runner 2049
+- rose pine
+- kanagawa themes
+- 0x96f theme
+- latx
+- gemini
+- ngxvamp
+- gruvbox baby
