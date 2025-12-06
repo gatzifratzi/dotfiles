@@ -14,18 +14,16 @@
 // command pallete ist cmd + shift + p
 {
     //STANDARD SACHEN
-    "sticky_scroll": {
-        "enabled": true
-    },
     "vim_mode": true,
     "relative_line_numbers": "enabled",
     "base_keymap": "VSCode",
     "autosave": "off",
     "restore_on_startup": "last_session",
+    "colorize_brackets": true,
     "soft_wrap": "bounded",
     "preferred_line_length": 120,
     "show_wrap_guides": true,
-    "lsp_document_colors": "background",
+    "lsp_document_colors": "background", // fuer die css farben und so
     "current_line_highlight": "all",
     "when_closing_with_no_tabs": "close_window",
     "use_system_prompts": false,
@@ -39,6 +37,9 @@
     },
     "minimap": {
         "show": "never"
+    },
+    "sticky_scroll": {
+        "enabled": true
     },
 
     //Diagnostics (Inline)

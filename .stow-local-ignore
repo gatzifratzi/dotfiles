@@ -24,6 +24,9 @@ _darcs
 # der font folder
 /fonts
 
+#setuppictures folder
+/setuppictures
+
 # Stats settings file
 Stats.plist
 
