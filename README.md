@@ -13,7 +13,7 @@
 - [Monaspace](https://monaspace.githubnext.com/) die beste font family die ich je gefunden habe
     - `brew install --cask font-monaspace-nf`
 - [Monocraft](https://github.com/IdreesInc/Monocraft) Minecraft font lol
-    aktuell manuell runtergeladen. namen muessen fuer homebrew version wieder auf nerd font geaendert werden.
+    - man braucht egtl nur die nerd font
     - `brew install --cask font-monocraft-nerd-font`
     - `brew install --cask font-monocraft` nicht nerd font fuer zen interface
 - [Miracode](https://github.com/IdreesInc/Miracode) wie Monocraft nur nicht pixelig

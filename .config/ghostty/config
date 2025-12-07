@@ -6,7 +6,6 @@ theme = Sea Shells
 #FONT
 font-family = Monaspace Krypton NF
 font-style = medium
-#wenn wieder ueber homebrew = Monocraft Nerd Font
 font-family-bold = Monocraft
 font-style-bold = semibold
 font-family-italic = Monaspace Radon NF
