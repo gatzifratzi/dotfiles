@@ -39,7 +39,7 @@
         "show": "never"
     },
     "sticky_scroll": {
-        "enabled": true
+        "enabled": false
     },
 
     //Diagnostics (Inline)
@@ -62,7 +62,7 @@
     "theme": {
         "mode": "system",
         "light": "Ember Glass",
-        "dark": "Ember Dark"
+        "dark": "Modus Vivendi Tritanopia"
     },
     "icon_theme": "Catppuccin Macchiato",
     "unnecessary_code_fade": 0.5,
