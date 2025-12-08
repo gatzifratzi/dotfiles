@@ -61,11 +61,11 @@
     // Modus, srcery, ember, gruvbox baby, kanagawa, blade runner
     "theme": {
         "mode": "system",
-        "light": "Modus Operandi Tinted",
-        "dark": "Srcery"
+        "light": "Ember Glass",
+        "dark": "Ember Dark"
     },
     "icon_theme": "Catppuccin Macchiato",
-    "unnecessary_code_fade": 0.25,
+    "unnecessary_code_fade": 0.5,
 
     //Fonts
     "cursor_shape": "bar",

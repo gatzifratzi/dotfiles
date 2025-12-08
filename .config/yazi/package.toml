@@ -72,3 +72,8 @@ hash = "d9d9463d5d43ced18e18986d05439ace"
 use = "gosxrgxx/flexoki-light"
 rev = "45eb0a0"
 hash = "1ee212b0799497b54c7e60bac8931e4e"
+
+[[flavor.deps]]
+use = "ficd0/ashen:ashen"
+rev = "8add1b8"
+hash = "f9aed559dc6820dbc7253253be1bb6d2"
