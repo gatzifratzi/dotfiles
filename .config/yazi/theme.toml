@@ -1,10 +1,10 @@
 [flavor]
-light = "everforest-medium"
-dark = "everforest-medium"
-#dark = "dracula"
-#dark = "catppuccin-mocha"
+light = "flexoki-light"
+dark = "dracula"
 
-[mgr]
-border_style = { fg = "#a7c080" }
-[tabs]
-active = { fg = "#4f585e", bg = "#7fbbb3", bold = true }
+# fuer everforest-medium
+# [mgr]
+# border_style = { fg = "#a7c080" }
+
+# [tabs]
+# active = { fg = "#4f585e", bg = "#7fbbb3", bold = true }

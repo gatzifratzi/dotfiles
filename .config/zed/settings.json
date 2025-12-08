@@ -57,8 +57,13 @@
 
     //VISUELLES
     // Themes (cmd-k cmd-t)
-    // Skeletor, Hanso Dark, Cursor Blur, Sandstorm Dark, Perf Warm
-    "theme": "NyxVamp Veil",
+    // Skeletor, Sandstorm Dark: manuell
+    // Modus, srcery, ember, gruvbox baby, kanagawa, blade runner
+    "theme": {
+        "mode": "system",
+        "light": "Modus Operandi Tinted",
+        "dark": "Srcery"
+    },
     "icon_theme": "Catppuccin Macchiato",
     "unnecessary_code_fade": 0.25,
 

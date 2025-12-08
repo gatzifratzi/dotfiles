@@ -1,7 +1,7 @@
 # THEME
-theme = Sea Shells
+theme = dark:floraverse, light:belafonte day
 # zum themes anzeigen "ghostty +list-themes" .... andere themes die cool aussehen
-# CyberpunkScarletProtocol, Kanagawa Dragon, Monokai Soda, Monokai Remastered, cyberpunk, catppuccin-macchiato, catppuccin-frappe, Ciapre, FunForrest
+# Cyberpunk Scarlet Protocol, cyberpunk, Fun Forrest, sea shells, floraverse, popping and locking
 
 #FONT
 font-family = Monaspace Krypton NF
@@ -53,7 +53,7 @@ confirm-close-surface = false
 quit-after-last-window-closed = true
 quit-after-last-window-closed-delay = 10m
 initial-window = true
-macos-window-shadow = false
+macos-window-shadow = true
 macos-titlebar-style = tabs
 macos-window-buttons = visible
 macos-titlebar-proxy-icon = visible
