@@ -42,7 +42,7 @@
 - transmission
 - (unnaturalscrollwheel)
 - itsycal(geht auf m4 irgendwie nicht)
-- trackweight '''brew install --cask krishkrosh/apps/trackweight --force'''
+- trackweight `brew install --cask krishkrosh/apps/trackweight --force`
 
 - Steam (ist gerade normalruntergeladen, weil nur so beta erreichbar ist.)
 
