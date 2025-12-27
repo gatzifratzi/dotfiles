@@ -35,13 +35,13 @@ hash = "dbbbfe681e156c28303efb1f44b6cbc4"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-mocha"
-rev = "3edeb49"
-hash = "14b111562c00eb1917fe3ca3ae9bb771"
+rev = "ffe6e3a"
+hash = "8d7799e4598ff079fa5ee5c770d9bc08"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:dracula"
-rev = "3edeb49"
-hash = "c5e49b9e877ca29a3622ec2e35af0b2a"
+rev = "ffe6e3a"
+hash = "5d16bf24ca0980168814fc1abd307c07"
 
 [[flavor.deps]]
 use = "dangooddd/kanagawa"
@@ -60,8 +60,8 @@ hash = "a30e00a00c0d49e725ea572b1caf015f"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-latte"
-rev = "3edeb49"
-hash = "31f2ba594080bfc2a68d054101cdc5f1"
+rev = "ffe6e3a"
+hash = "b7f67b15a9f94f408d94b9630465c37a"
 
 [[flavor.deps]]
 use = "Mintass/rose-pine-dawn"

@@ -32,14 +32,14 @@
         "show": "auto",
         "axes": {
             "horizontal": false,
-            "vertical": true
-        }
+            "vertical": true,
+        },
     },
     "minimap": {
-        "show": "never"
+        "show": "never",
     },
     "sticky_scroll": {
-        "enabled": false
+        "enabled": false,
     },
 
     //Diagnostics (Inline)
@@ -47,12 +47,12 @@
         "include_warnings": true,
         "inline": {
             "enabled": true,
-            "min_column": 80
-        }
+            "min_column": 80,
+        },
     },
     "repl": {
         "max_columns": 128,
-        "max_lines": 32
+        "max_lines": 32,
     },
 
     //VISUELLES
@@ -62,7 +62,7 @@
     "theme": {
         "mode": "system",
         "light": "Ember Glass",
-        "dark": "Modus Vivendi Tritanopia"
+        "dark": "Ember Dark",
     },
     "icon_theme": "Catppuccin Macchiato",
     "unnecessary_code_fade": 0.5,
@@ -86,28 +86,28 @@
         "ss06": true,
         "ss08": true,
         "ss09": true,
-        "ss10": true
+        "ss10": true,
     },
     //comments italic machen (ich wuerde fuer comments sehr gerne eine andere schriftart nutzen, aber das geht nicht)(habe fonts als workaround gemerged)
     "experimental.theme_overrides": {
         "syntax": {
             "comment": {
-                "font_style": "italic"
-            }
-        }
+                "font_style": "italic",
+            },
+        },
     },
 
     //Active Pane Modifiers(split view)
     "active_pane_modifiers": {
         "inactive_opacity": 0.9,
-        "border_size": 1
+        "border_size": 1,
     },
 
     //Tabs
     "tabs": {
         "close_position": "right",
         "file_icons": true,
-        "git_status": true
+        "git_status": true,
     },
 
     //weil ich das schon 3 mal vergessen habe
@@ -115,18 +115,18 @@
     "preview_tabs": {
         "enabled": true,
         "enable_preview_from_file_finder": false,
-        "enable_preview_from_code_navigation": false
+        "enable_keep_preview_on_code_navigation": false,
     },
 
     //Editor Toolbar
     "toolbar": {
-        "code_actions": true
+        "code_actions": true,
     },
 
     //titlebar
     "title_bar": {
         "show_menus": false,
-        "show_branch_icon": true
+        "show_branch_icon": true,
     },
 
     //Git
@@ -134,16 +134,16 @@
         "git_gutter": "tracked_files",
         "hunk_style": "staged_hollow",
         "branch_picker": {
-            "show_author_name": true
+            "show_author_name": true,
         },
         "inline_blame": {
             "enabled": true,
             "show_commit_summary": false,
-            "padding": 8
+            "padding": 8,
         },
         "blame": {
-            "show_avatar": true
-        }
+            "show_avatar": true,
+        },
     },
 
     //Wo und wie wird was im UI angezeigt
@@ -151,7 +151,7 @@
         "sort_by_path": true, //die settings mal bischen testen. ich wiess nicht ob ich die sortierung nach tracked/untracked brauche und dann ist die ja cooler.
         "status_style": "icon",
         "dock": "left",
-        "default_width": 512
+        "default_width": 512,
     },
     //Project Panel
     "project_panel": {
@@ -165,10 +165,10 @@
         "show_diagnostics": "errors",
         "indent_size": 16,
         "indent_guides": {
-            "show": "always"
+            "show": "always",
         },
         "auto_reveal_entries": true,
-        "auto_fold_dirs": true
+        "auto_fold_dirs": true,
     },
     //outline Panel
     "outline_panel": {
@@ -182,17 +182,17 @@
         "auto_reveal_entries": true,
         "auto_fold_dirs": true,
         "indent_guides": {
-            "show": "always"
-        }
+            "show": "always",
+        },
     },
 
     "collaboration_panel": {
         "dock": "right",
-        "button": false
+        "button": false,
     },
     "notification_panel": {
         "dock": "right",
-        "button": false
+        "button": false,
     },
 
     //TERMINAL
@@ -210,7 +210,7 @@
         "option_as_meta": false,
         "shell": "system",
         "working_directory": "current_project_directory",
-        "minimum_contrast": 30
+        "minimum_contrast": 30,
     },
     // KI Agent
     "agent": {
@@ -223,18 +223,18 @@
         "default_width": 512,
         "default_model": {
             "provider": "google",
-            "model": "gemini-2.5-flash"
-        }
+            "model": "gemini-3-flash-preview",
+        },
     },
     "debugger": {
         "dock": "right",
         "button": true,
-        "save_breakpoints": true
+        "save_breakpoints": true,
     },
 
     // EDIT PREDICTIONS
     "features": {
-        "edit_prediction_provider": "none" //durch 'none' deaktiviert
+        "edit_prediction_provider": "none", //durch 'none' deaktiviert
     },
     "edit_predictions_disabled_in": ["string", "comment"], //ich weiss nicht, warum das nicht im edit_predictions block funktioniert...
     "edit_predictions": {
@@ -242,9 +242,9 @@
         "mode": "subtle",
         "copilot": {
             "proxy": null,
-            "proxy_no_verify": null
+            "proxy_no_verify": null,
         },
-        "enabled_in_text_threads": false
+        "enabled_in_text_threads": false,
     },
 
     "inlay_hints": {
@@ -254,7 +254,7 @@
         "show_other_hints": true,
         "show_background": true,
         "edit_debounce_ms": 0,
-        "scroll_debounce_ms": 0
+        "scroll_debounce_ms": 0,
     },
 
     //LSPs und Formatierung
@@ -266,40 +266,40 @@
         "Haskell": {
             "enable_language_server": true,
             "language_servers": ["hls", "..."],
-            "formatter": "language_server"
+            "formatter": "language_server",
         },
         "C++": {
             "enable_language_server": true,
             "language_servers": ["clangd", "..."],
             "formatter": "language_server",
             "format_on_save": "on",
-            "use_on_type_format": true
+            "use_on_type_format": true,
         },
         "Python": {
             "enable_language_server": true,
             "language_servers": ["!pyright", "!pylsp", "basedpyright", "..."],
-            "formatter": "prettier"
+            "formatter": "prettier",
         },
         "TypeScript": {
             "enable_language_server": true,
             "language_servers": ["!typescript-language-server", "vtsls", "..."],
-            "formatter": "prettier"
+            "formatter": "prettier",
         },
         "JavaScript": {
             "enable_language_server": true,
             "language_servers": ["!typescript-language-server", "vtsls", "..."],
-            "formatter": "prettier"
+            "formatter": "prettier",
         },
         "HTML": {
             "enable_language_server": true,
             "language_servers": ["microsoft/vscode-html-languageservice", "..."],
-            "formatter": "prettier"
+            "formatter": "prettier",
         },
         "CSS": {
             "enable_language_server": true,
             "language_servers": ["tailwindcss-language-server", "..."],
-            "formatter": "language_server"
-        }
+            "formatter": "language_server",
+        },
     },
 
     "lsp": {
@@ -309,18 +309,18 @@
             "settings": {
                 "texlab": {
                     "build": {
-                        "onSave": false
-                    }
-                }
-            }
+                        "onSave": false,
+                    },
+                },
+            },
         },
         "ltex": {
             "settings": {
                 "ltex": {
                     "language": "de-DE", //sprache von ltex
-                    "enabled": ["latex", "bibtex"] //fuer welche sprachen ltex aktiv ist.
-                }
-            }
-        }
-    }
+                    "enabled": ["latex", "bibtex"], //fuer welche sprachen ltex aktiv ist.
+                },
+            },
+        },
+    },
 }

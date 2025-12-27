@@ -40,9 +40,11 @@
 - google-drive
 - iina
 - transmission
-- nordvpn (maybe appstore version)
 - (unnaturalscrollwheel)
 - itsycal(geht auf m4 irgendwie nicht)
+- trackweight '''brew install --cask krishkrosh/apps/trackweight --force'''
+
+- Steam (ist gerade normalruntergeladen, weil nur so beta erreichbar ist.)
 
 ## formulae
 - stow
@@ -70,6 +72,7 @@
 - Whatsapp
 - Goodnotes
 - Maccy (maybe obsolete mit Macos26)
+- nordvpn
 
 # Zed Extension
 - Html
