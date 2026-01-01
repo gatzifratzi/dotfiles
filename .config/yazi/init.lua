@@ -7,8 +7,8 @@ require("full-border"):setup {
     type = ui.Border.ROUNDED,
 }
 
---  relative motions plugin --
-require("relative-motions"):setup({ show_numbers = "relative_absolute", show_motion = true, enter_mode = "cache_or_first", only_motions = false })
+--  relative motions plugin -- plugin geht in 25.12.29 nicht mehr. Wird aber bestimmt geupdated
+-- require("relative-motions"):setup({ show_numbers = "relative_absolute", show_motion = true, enter_mode = "cache_or_first", only_motions = false })
 
 --show symlink status in statusbar
 Status:children_add(function(self)
