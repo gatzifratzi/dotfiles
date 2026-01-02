@@ -68,15 +68,19 @@ download = [
   { run = "ya emit download %S", desc = "Download" },
 ]
 playVideo = [
-  { run = "iina --no-stdin %s", orphan = true, for = "macos" },
-  { run = "mpv --force-window %s", orphan = true, for = "linux" },
-  { run = "mpv --force-window %*", orphan = true, for = "windows" },
-  { run = '''mediainfo "$1"; echo "Press enter to exit"; read _''', block = true, desc = "Show media info", for = "unix" },
+  { run = "iina --no-stdin %s", desc = "iina", orphan = true, for = "macos" },
+  { run = "xdg-open %s1", desc = "Play", for = "linux" },
+  { run = 'start "" %s1', orphan = true, desc = "Play", for = "windows" },
+  { run = "termux-open %s1", desc = "Play", for = "android" },
+  { run = "mediainfo %s1; echo 'Press enter to exit'; read _", block = true, desc = "Show media info", for = "unix" },
+  { run = "mediainfo %s1 & pause", block = true, desc = "Show media info", for = "windows" },
 ]
 playAudio = [
   { run = "iina --no-stdin --music-mode %s", orphan = true, for = "macos" },
   { run = "mpv --force-window %s", orphan = true, for = "linux" },
   { run = "mpv --force-window %*", orphan = true, for = "windows" },
+  { run = "mediainfo %s1; echo 'Press enter to exit'; read _", block = true, desc = "Show media info", for = "unix" },
+  { run = "mediainfo %s1 & pause", block = true, desc = "Show media info", for = "windows" },
 ]
 
 [open]

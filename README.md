@@ -66,6 +66,8 @@
 - btop
 - clipboard (yazi plugin)
 - fontforge
+- media-info
+- exiftool
 
 # MacStore Sachen
 - Xcode
