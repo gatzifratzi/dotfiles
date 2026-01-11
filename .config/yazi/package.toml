@@ -1,11 +1,11 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "80cd5b5"
-hash = "170317244d60fbe70ad3cc3353358480"
+rev = "68f7d48"
+hash = "36a484acf6a0a0219c543ccb4cee218f"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "80cd5b5"
+rev = "68f7d48"
 hash = "3996fc74044bc44144b323686f887e1"
 
 [[plugin.deps]]
@@ -15,60 +15,60 @@ hash = "9f82a544335a53d79e87ea315746caaa"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:toggle-pane"
-rev = "80cd5b5"
+rev = "68f7d48"
 hash = "8a7c58225816a163a6e8730c0adafbc8"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:mount"
-rev = "80cd5b5"
+rev = "68f7d48"
 hash = "e2d4bfccf31e5ab05f46fee4797c5215"
 
 [[flavor.deps]]
 use = "Chromium-3-Oxide/everforest-medium"
 rev = "0158f0f"
-hash = "dbbbfe681e156c28303efb1f44b6cbc4"
+hash = "a7c36abf0b13289aceb1c20a17c6a63e"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-mocha"
-rev = "ffe6e3a"
-hash = "8d7799e4598ff079fa5ee5c770d9bc08"
+rev = "4a1802a"
+hash = "b951d27afe197d154f6da9683b46c5f8"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:dracula"
-rev = "ffe6e3a"
-hash = "5d16bf24ca0980168814fc1abd307c07"
+rev = "4a1802a"
+hash = "7a870f143a4026a893ea3123be711e7a"
 
 [[flavor.deps]]
 use = "dangooddd/kanagawa"
-rev = "a0b1d9d"
-hash = "abfb0b2371259b2c8adfc7b617c3d7e5"
+rev = "04985d1"
+hash = "c69a63981e254a3a06a11c2bf0e6af1d"
 
 [[flavor.deps]]
 use = "muratoffalex/kanagawa-lotus"
 rev = "4275a1a"
-hash = "e3c47ba547279aff64b6e46eefcf4479"
+hash = "e24d0a24c16dd33912f2bcd42218abac"
 
 [[flavor.deps]]
 use = "Miuzarte/synthwave84"
 rev = "865bef9"
-hash = "a30e00a00c0d49e725ea572b1caf015f"
+hash = "598126216cc2ab55f98955788f0eb3f3"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-latte"
-rev = "ffe6e3a"
-hash = "b7f67b15a9f94f408d94b9630465c37a"
+rev = "4a1802a"
+hash = "525675a9180ed23a097b07399627294a"
 
 [[flavor.deps]]
 use = "Mintass/rose-pine-dawn"
 rev = "5c6d353"
-hash = "d9d9463d5d43ced18e18986d05439ace"
+hash = "1f9b1fa79a11ae9f9255b47380b98775"
 
 [[flavor.deps]]
 use = "gosxrgxx/flexoki-light"
 rev = "45eb0a0"
-hash = "1ee212b0799497b54c7e60bac8931e4e"
+hash = "80ba3eec4bf0b9770b1558c26b5b4a72"
 
 [[flavor.deps]]
 use = "ficd0/ashen:ashen"
 rev = "8add1b8"
-hash = "f9aed559dc6820dbc7253253be1bb6d2"
+hash = "ec4555e1d972062f391c397d339915bb"

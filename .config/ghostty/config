@@ -1,5 +1,8 @@
 # THEME
 theme = dark:floraverse, light:horizon bright
+background-image = /Users/jakob/Pictures/hintergründe/nebula/Dark Waves/P13.png
+background-image-opacity = 0.15
+background-image-fit = cover
 # zum themes anzeigen "ghostty +list-themes" .... andere themes die cool aussehen
 # Cyberpunk Scarlet Protocol, cyberpunk, Fun Forrest, sea shells, floraverse, popping and locking, horizon bright
 
