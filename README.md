@@ -43,7 +43,7 @@
 - (unnaturalscrollwheel)
 - itsycal(geht auf m4 irgendwie nicht)
 - trackweight `brew install --cask krishkrosh/apps/trackweight --force`
-
+- Protonvpn
 - Steam (ist gerade normalruntergeladen, weil nur so beta erreichbar ist.)
 
 ## formulae
@@ -74,7 +74,6 @@
 - Whatsapp
 - Goodnotes
 - Maccy (maybe obsolete mit Macos26)
-- nordvpn
 
 # Zed Extension
 - Html
