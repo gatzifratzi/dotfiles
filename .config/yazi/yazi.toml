@@ -85,6 +85,8 @@ playAudio = [
 
 [open]
 rules = [
+  # PDF
+  { url = "*.pdf", use = ["open", "reveal"] },
   # Folder
   { url = "*/", use = ["edit", "open", "zip", "reveal"] },
   # Text
