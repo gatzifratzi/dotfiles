@@ -233,11 +233,9 @@
     },
 
     // EDIT PREDICTIONS
-    "features": {
-        "edit_prediction_provider": "none", //durch 'none' deaktiviert
-    },
     "edit_predictions_disabled_in": ["string", "comment"], //ich weiss nicht, warum das nicht im edit_predictions block funktioniert...
     "edit_predictions": {
+        "provider": "none",
         "disabled_globs": null,
         "mode": "subtle",
         "copilot": {
