@@ -22,7 +22,7 @@ font-feature = calt=1, liga=1, ss01=1, ss03=1, ss06=1, ss08=1, ss09=1, ss10=1
 window-theme = auto
 window-width = 70
 window-height = 25
-window-new-tab-position = current
+window-new-tab-position = end
 window-step-resize = true
 window-decoration = auto
 window-position-x = 25
@@ -46,7 +46,6 @@ cursor-click-to-move = true
 
 # RANDOM
 shell-integration = zsh
-scrollback-limit = 52428800
 clipboard-read = allow
 clipboard-write = allow
 copy-on-select = false
@@ -64,7 +63,7 @@ macos-shortcuts = allow
 
 #QUICK TERMINAL
 quick-terminal-position = top
-quick-terminal-size = 10px
+quick-terminal-size = 250px
 quick-terminal-screen = main
 quick-terminal-animation-duration = 0
 quick-terminal-autohide = true

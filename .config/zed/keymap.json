@@ -12,8 +12,8 @@
         "context": "Editor && extension==tex", // This restricts the keybindings to tex files however does not work when in terminal
         "bindings": {
             "cmd-ctrl-v": ["task::Spawn", { "task_name": "forward_search_skim" }],
-            "cmd-ctrl-b": ["task::Spawn", { "task_name": "tectonic_skim" }]
-        }
+            "cmd-ctrl-b": ["task::Spawn", { "task_name": "tectonic_skim" }],
+        },
     },
     // --- UNBINDS FUER MACOS WM ---
     {
@@ -22,29 +22,19 @@
             // "j k": ["workspace::SendKeystrokes", "escape"]
             "ctrl-alt-h": null, //unbinded, damit macos commands fuer window management funktionieren
             "ctrl-alt-f": null, //unbinded, damit macos commands fuer window management funktionieren
-            "ctrl-alt-shift-f": null //unbinded, damit macos commands fuer window management funktionieren
-        }
+            "ctrl-alt-shift-f": null, //unbinded, damit macos commands fuer window management funktionieren
+        },
     },
     //GEMINI CLI
-
-    {
-        "bindings": {
-            "ctrl-cmd-t": [
-                "agent::NewExternalAgentThread",
-                {
-                    "agent": "gemini"
-                }
-            ]
-        }
-    },
+    //wurde neu als ACP implementiert und braucht jetzt andere keybinds. Mach ich irgendwann mal, wenn ich die brauche.
 
     // --- Multi Cursor ---
     {
         "context": "Editor",
         "bindings": {
             "cmd-alt-k": ["editor::AddSelectionAbove", { "skip_soft_wrap": true }],
-            "cmd-alt-j": ["editor::AddSelectionBelow", { "skip_soft_wrap": true }]
-        }
+            "cmd-alt-j": ["editor::AddSelectionBelow", { "skip_soft_wrap": true }],
+        },
     },
     // --- PANES ---
     {
@@ -68,8 +58,8 @@
             "alt-6": ["workspace::ActivatePane", 5],
             "alt-7": ["workspace::ActivatePane", 6],
             "alt-8": ["workspace::ActivatePane", 7],
-            "alt-9": ["workspace::ActivatePane", 8]
-        }
+            "alt-9": ["workspace::ActivatePane", 8],
+        },
     },
 
     /// --- TAB Switching ---
@@ -88,8 +78,8 @@
             "alt-]": "pane::ActivateNextItem",
             "alt-[": "pane::ActivatePreviousItem",
             "alt-{": "pane::SwapItemLeft",
-            "alt-}": "pane::SwapItemRight"
-        }
+            "alt-}": "pane::SwapItemRight",
+        },
     },
 
     // --- NAVIGATION ---
@@ -98,8 +88,8 @@
         "bindings": {
             "cmd-e": "workspace::ToggleLeftDock",
             "cmd-shift-e": "project_panel::ToggleFocus",
-            "cmd-shift-b": "outline_panel::ToggleFocus"
-        }
+            "cmd-shift-b": "outline_panel::ToggleFocus",
+        },
     },
     // cmd-e und cmd-b default rollen getauscht
     {
@@ -108,18 +98,18 @@
             "cmd-b": [
                 "buffer_search::Deploy",
                 {
-                    "focus": false
-                }
+                    "focus": false,
+                },
             ],
             "cmd-e": "workspace::ToggleLeftDock",
-            "cmd-shift-e": "project_panel::ToggleFocus"
-        }
+            "cmd-shift-e": "project_panel::ToggleFocus",
+        },
     },
     {
         "context": "AgentPanel",
         "bindings": {
-            "cmd-shift-e": "project_panel::ToggleFocus"
-        }
+            "cmd-shift-e": "project_panel::ToggleFocus",
+        },
     },
     {
         "context": "Workspace",
@@ -127,7 +117,7 @@
             "alt-r": "agent::ToggleFocus",
             "alt-y": "collab_panel::ToggleFocus",
             "alt-t": "terminal_panel::Toggle",
-            "alt-g": "git_panel::ToggleFocus"
-        }
-    }
+            "alt-g": "git_panel::ToggleFocus",
+        },
+    },
 ]
