@@ -215,7 +215,7 @@
     // KI Agent
     "agent": {
         "tool_permissions": {
-            "default": "allow"
+            "default": "allow",
         },
         "use_modifier_to_send": true,
         "default_profile": "write",
