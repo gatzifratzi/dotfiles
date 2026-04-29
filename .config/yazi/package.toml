@@ -1,42 +1,42 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "57f1863"
-hash = "36a484acf6a0a0219c543ccb4cee218f"
+rev = "ac82af3"
+hash = "6849444b7c2df08eace83f3f86fb55a3"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "57f1863"
-hash = "3996fc74044bc44144b323686f887e1"
+rev = "ac82af3"
+hash = "eff8ff12fa4e5f035a10d8aeeb4c258d"
 
 [[plugin.deps]]
 use = "orhnk/system-clipboard"
-rev = "888026c"
-hash = "9f82a544335a53d79e87ea315746caaa"
+rev = "75a5330"
+hash = "2eca70f99d25c661e0a92000843d001e"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:toggle-pane"
-rev = "57f1863"
-hash = "8a7c58225816a163a6e8730c0adafbc8"
+rev = "ac82af3"
+hash = "4c0260feb50ea2437380690ffc241da7"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:mount"
-rev = "57f1863"
-hash = "e2d4bfccf31e5ab05f46fee4797c5215"
+rev = "ac82af3"
+hash = "77e20b071404f97c09d3f9afdb9482e0"
 
 [[flavor.deps]]
 use = "Chromium-3-Oxide/everforest-medium"
-rev = "0158f0f"
-hash = "a7c36abf0b13289aceb1c20a17c6a63e"
+rev = "4eede31"
+hash = "2f79b3c6afefef9b1c269edd38b45fab"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-mocha"
-rev = "4a1802a"
-hash = "b951d27afe197d154f6da9683b46c5f8"
+rev = "0670801"
+hash = "7dfe41c9c3d9be76da8a844263d0bbed"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:dracula"
-rev = "4a1802a"
-hash = "7a870f143a4026a893ea3123be711e7a"
+rev = "0670801"
+hash = "20624fcdfcf7e4e912de05e348065e5e"
 
 [[flavor.deps]]
 use = "dangooddd/kanagawa"
@@ -45,8 +45,8 @@ hash = "c69a63981e254a3a06a11c2bf0e6af1d"
 
 [[flavor.deps]]
 use = "muratoffalex/kanagawa-lotus"
-rev = "4275a1a"
-hash = "e24d0a24c16dd33912f2bcd42218abac"
+rev = "00dcc74"
+hash = "8fe01c79d91d7154ce231334cc7275f2"
 
 [[flavor.deps]]
 use = "Miuzarte/synthwave84"
@@ -55,20 +55,20 @@ hash = "598126216cc2ab55f98955788f0eb3f3"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-latte"
-rev = "4a1802a"
-hash = "525675a9180ed23a097b07399627294a"
+rev = "0670801"
+hash = "b8f46853c27707115f25f3423a47bd38"
 
 [[flavor.deps]]
 use = "Mintass/rose-pine-dawn"
-rev = "5c6d353"
-hash = "1f9b1fa79a11ae9f9255b47380b98775"
+rev = "d82f54f"
+hash = "15ae5f83d3770b9ffc276af77f642e2b"
 
 [[flavor.deps]]
 use = "gosxrgxx/flexoki-light"
-rev = "45eb0a0"
-hash = "80ba3eec4bf0b9770b1558c26b5b4a72"
+rev = "1b1e677"
+hash = "a80630a255909a511aba8a98d115bc15"
 
 [[flavor.deps]]
 use = "ficd0/ashen:ashen"
-rev = "8add1b8"
-hash = "ec4555e1d972062f391c397d339915bb"
+rev = "7d18c13"
+hash = "65b56e9ee65dd33eec62d6ca4209611b"

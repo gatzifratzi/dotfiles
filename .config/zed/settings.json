@@ -14,6 +14,7 @@
 // command pallete ist cmd + shift + p
 {
     //STANDARD SACHEN
+    "cli_default_open_behavior": "existing_window",
     "vim_mode": true,
     "relative_line_numbers": "enabled",
     "base_keymap": "VSCode",
@@ -125,8 +126,8 @@
 
     //titlebar
     "title_bar": {
+        "show_branch_status_icon": true,
         "show_menus": false,
-        "show_branch_icon": true,
     },
 
     //Git
@@ -150,7 +151,7 @@
     "git_panel": {
         "sort_by_path": true, //die settings mal bischen testen. ich wiess nicht ob ich die sortierung nach tracked/untracked brauche und dann ist die ja cooler.
         "status_style": "icon",
-        "dock": "left",
+        "dock": "right",
         "default_width": 512,
     },
     //Project Panel
@@ -214,6 +215,7 @@
     },
     // KI Agent
     "agent": {
+        "sidebar_side": "right",
         "tool_permissions": {
             "default": "allow",
         },
@@ -221,7 +223,7 @@
         "default_profile": "write",
         "enabled": true,
         "button": true,
-        "dock": "right",
+        "dock": "left",
         "default_width": 512,
         "default_model": {
             "provider": "google",
