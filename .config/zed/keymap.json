@@ -89,6 +89,8 @@
             "cmd-e": "workspace::ToggleLeftDock",
             "cmd-shift-e": "project_panel::ToggleFocus",
             "cmd-shift-b": "outline_panel::ToggleFocus",
+            //"cmd-u": "multi_workspace::ToggleWorkspaceSidebar",
+            // checke nicht warum der nicht geht
         },
     },
     // cmd-e und cmd-b default rollen getauscht
