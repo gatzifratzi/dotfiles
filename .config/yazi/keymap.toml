@@ -43,6 +43,10 @@ prepend_keymap = [
     "r",
   ], run = 'shell -- ya emit cd "$(git rev-parse --show-toplevel)"', desc = "root git" },
 
+  # tabs
+  { on = "T", run = "tab_rename --interactive", desc = "rename Tab" },
+  { on = "t", run = "tab_create --current", desc = "new tab in cwd" },
+G
   # Operation
   { on = "o", run = "open --interactive", desc = "Open selected files interactively" },
   { on = "O", run = "open", desc = "Open selected files" },
