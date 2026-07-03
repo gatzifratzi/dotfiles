@@ -54,11 +54,11 @@ open = [
   { run = "termux-open %s1", desc = "Open", for = "android" },
 ]
 reveal = [
+  { run = "clear; exiftool %s1; echo 'Press enter to exit'; read _", desc = "Show EXIF", for = "unix", block = true },
   { run = "xdg-open %d1", desc = "Reveal", for = "linux" },
   { run = "open -R %s1", desc = "Reveal(Finder)", for = "macos" },
   { run = "explorer /select,%s1", desc = "Reveal", for = "windows", orphan = true },
   { run = "termux-open %d1", desc = "Reveal", for = "android" },
-  { run = "clear; exiftool %s1; echo 'Press enter to exit'; read _", desc = "Show EXIF", for = "unix", block = true },
 ]
 extract = [
   { run = "ya pub extract --list %s", desc = "Extract here" },

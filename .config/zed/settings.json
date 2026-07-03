@@ -218,16 +218,13 @@
         "button": true,
         "dock": "right",
         "default_model": {
+            "effort": "high",
             "provider": "google",
             "model": "gemini-3-flash-preview",
         },
     },
     "agent_servers": {
-        "gemini": {
-            "default_model": "auto-gemini-3",
-            "type": "registry",
         },
-    },
 
     // EDIT PREDICTIONS
     "show_edit_predictions": true,
