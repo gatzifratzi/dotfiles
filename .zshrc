@@ -89,3 +89,6 @@ bindkey '^H' autosuggest-accept # binded ctrl h auf autocomplete fuer autosugges
 alias please="sudo"
 alias keybinds='ghostty +list-keybinds | fzf'
 alias themes='ghostty +list-themes'
+alias wakey='sudo pmset -a disablesleep 1' #viel zu coole commands
+alias sleepy='sudo pmset -a disablesleep 0' # ich kann mein mac zu machen yippie
+alias checksleep='pmset -g' #um nachzugucken ob mac schlafen darf
