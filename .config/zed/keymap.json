@@ -122,4 +122,16 @@
             "alt-g": "git_panel::ToggleFocus",
         },
     },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "alt-w": "multi_workspace::ToggleWorkspaceSidebar"
+        }
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "alt-cmd-j": "multi_workspace::ToggleWorkspaceSidebar"
+        }
+    }
 ]

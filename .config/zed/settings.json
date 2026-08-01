@@ -45,7 +45,7 @@
     "theme": {
         "mode": "system",
         "light": "Ember Glass",
-        "dark": "Ember Dark",
+        "dark": "Srcery",
     },
     "icon_theme": "Catppuccin Macchiato",
     "unnecessary_code_fade": 0.5,
@@ -195,6 +195,8 @@
 
     // KI Agent
     "agent": {
+        "show_turn_stats": true,
+        "single_file_review": false,
         "flexible": true,
         "favorite_models": [
             {
