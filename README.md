@@ -37,13 +37,15 @@
 - skim
 - spotify
 - rstudio
-- google-drive
+- (google-drive)
 - iina
 - transmission
+- whatcable
 - (unnaturalscrollwheel)
 - itsycal(geht auf m4 irgendwie nicht)
-- trackweight `brew install --cask krishkrosh/apps/trackweight --force`
 - Protonvpn
+- proton-mail
+- proton-drive
 - Steam (ist gerade normalruntergeladen, weil nur so beta erreichbar ist.)
 
 ## formulae
@@ -68,14 +70,14 @@
 - fontforge
 - media-info
 - exiftool
+- pinentry-mac (fuer gpg passphrase `echo "pinentry-program $(brew --prefix)/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf` ich weiss nicht welches programm das normale pinentry oder gnupg mit installiert hat)
 
 # MacStore Sachen
 - Xcode
 - Whatsapp
 - Goodnotes
-- Maccy (maybe obsolete mit Macos26)
 
-# Zed Extension
+# Zed Extension (man kann safe die app support sachen kopieren)
 - Html
 - toml
 - git firefly
@@ -94,3 +96,4 @@
 - gemini
 - ngxvamp
 - gruvbox baby
+- srcery
