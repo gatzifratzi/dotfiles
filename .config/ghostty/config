@@ -1,6 +1,6 @@
 # THEME
 theme = dark:floraverse, light:horizon bright
-background-image = /Users/jakob/Pictures/laptopBilder/hintergründe/nebula/Dark Waves/P13.png
+# background-image = /Users/jakob/Pictures/laptopBilder/hintergründe/nebula/Dark Waves/P13.png
 background-image-opacity = 0.15
 background-image-fit = cover
 # zum themes anzeigen "ghostty +list-themes" .... andere themes die cool aussehen
