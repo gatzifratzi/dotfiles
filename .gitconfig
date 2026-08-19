@@ -6,4 +6,3 @@
 	signingkey = 15426DD3589182A5
 [commit]
 	gpgsign = true
-	#einmal testen ob jetzt geht
