@@ -25,11 +25,11 @@
 # Homebrew sachen
 
 ## Casks
-- middleclick(geht auch per vorssaint, aber ich find gut das das ne eigene app ist die immer laueft, vorssaint schliesse ich manchmal)
+- middleclick(geht per vorssaint, find ne einzelne app fuer core features aber gut)
 - boring-notch
 - vorssaint(ich versteh nicht wie diese app so gut sein kann)
 - stats(obsolete durch vorssaint)
-- pika
+- pika (besser als vorssaints aequivalent)s
 - ghostty
 - helium-browser
 - zen
