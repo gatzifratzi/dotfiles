@@ -11,8 +11,8 @@
         //"context": "Workspace",
         "context": "Editor && extension==tex", // This restricts the keybindings to tex files however does not work when in terminal
         "bindings": {
-            "cmd-ctrl-v": ["task::Spawn", { "task_name": "forward_search_skim" }],
-            "cmd-ctrl-b": ["task::Spawn", { "task_name": "tectonic_skim" }],
+            "super-ctrl-v": ["task::Spawn", { "task_name": "forward_search_skim" }],
+            "super-ctrl-b": ["task::Spawn", { "task_name": "tectonic_skim" }],
         },
     },
     // --- UNBINDS FUER MACOS WM ---
@@ -32,33 +32,33 @@
     {
         "context": "Editor",
         "bindings": {
-            "cmd-alt-k": ["editor::AddSelectionAbove", { "skip_soft_wrap": true }],
-            "cmd-alt-j": ["editor::AddSelectionBelow", { "skip_soft_wrap": true }],
+            "super-alt-ctrl-shift-p": ["editor::AddSelectionAbove", { "skip_soft_wrap": true }],
+            "super-alt-ctrl-shift-n": ["editor::AddSelectionBelow", { "skip_soft_wrap": true }],
         },
     },
     // --- PANES ---
     {
         "context": "Workspace",
         "bindings": {
-            "alt-d": "pane::SplitRight",
-            "alt-shift-d": "pane::SplitDown",
-            "alt-l": "workspace::ActivatePaneRight",
-            "alt-k": "workspace::ActivatePaneUp",
-            "alt-j": "workspace::ActivatePaneDown",
-            "alt-h": "workspace::ActivatePaneLeft",
-            "alt-shift-l": "workspace::SwapPaneRight",
-            "alt-shift-k": "workspace::SwapPaneUp",
-            "alt-shift-j": "workspace::SwapPaneDown",
-            "alt-shift-h": "workspace::SwapPaneLeft",
-            "alt-1": ["workspace::ActivatePane", 0],
-            "alt-2": ["workspace::ActivatePane", 1],
-            "alt-3": ["workspace::ActivatePane", 2],
-            "alt-4": ["workspace::ActivatePane", 3],
-            "alt-5": ["workspace::ActivatePane", 4],
-            "alt-6": ["workspace::ActivatePane", 5],
-            "alt-7": ["workspace::ActivatePane", 6],
-            "alt-8": ["workspace::ActivatePane", 7],
-            "alt-9": ["workspace::ActivatePane", 8],
+            "super-alt-ctrl-shift-d d": "pane::SplitRight",
+            "super-alt-ctrl-shift-d c": "pane::SplitDown",
+            "super-alt-ctrl-shift-l": "workspace::ActivatePaneRight",
+            "super-alt-ctrl-shift-k": "workspace::ActivatePaneUp",
+            "super-alt-ctrl-shift-j": "workspace::ActivatePaneDown",
+            "super-alt-ctrl-shift-h": "workspace::ActivatePaneLeft",
+            "super-alt-ctrl-shift-d l": "workspace::SwapPaneRight",
+            "super-alt-ctrl-shift-d k": "workspace::SwapPaneUp",
+            "super-alt-ctrl-shift-d j": "workspace::SwapPaneDown",
+            "super-alt-ctrl-shift-d h": "workspace::SwapPaneLeft",
+            "super-alt-ctrl-shift-1": ["workspace::ActivatePane", 0],
+            "super-alt-ctrl-shift-2": ["workspace::ActivatePane", 1],
+            "super-alt-ctrl-shift-3": ["workspace::ActivatePane", 2],
+            "super-alt-ctrl-shift-4": ["workspace::ActivatePane", 3],
+            "super-alt-ctrl-shift-5": ["workspace::ActivatePane", 4],
+            "super-alt-ctrl-shift-6": ["workspace::ActivatePane", 5],
+            "super-alt-ctrl-shift-7": ["workspace::ActivatePane", 6],
+            "super-alt-ctrl-shift-8": ["workspace::ActivatePane", 7],
+            "super-alt-ctrl-shift-9": ["workspace::ActivatePane", 8],
         },
     },
 
@@ -66,19 +66,19 @@
     {
         "context": "Pane",
         "bindings": {
-            "cmd-1": ["pane::ActivateItem", 0],
-            "cmd-2": ["pane::ActivateItem", 1],
-            "cmd-3": ["pane::ActivateItem", 2],
-            "cmd-4": ["pane::ActivateItem", 3],
-            "cmd-5": ["pane::ActivateItem", 4],
-            "cmd-6": ["pane::ActivateItem", 5],
-            "cmd-7": ["pane::ActivateItem", 6],
-            "cmd-8": ["pane::ActivateItem", 7],
-            "cmd-9": ["pane::ActivateItem", 8],
-            "alt-]": "pane::ActivateNextItem",
-            "alt-[": "pane::ActivatePreviousItem",
-            "alt-{": "pane::SwapItemLeft",
-            "alt-}": "pane::SwapItemRight",
+            "super-1": ["pane::ActivateItem", 0],
+            "super-2": ["pane::ActivateItem", 1],
+            "super-3": ["pane::ActivateItem", 2],
+            "super-4": ["pane::ActivateItem", 3],
+            "super-5": ["pane::ActivateItem", 4],
+            "super-6": ["pane::ActivateItem", 5],
+            "super-7": ["pane::ActivateItem", 6],
+            "super-8": ["pane::ActivateItem", 7],
+            "super-9": ["pane::ActivateItem", 8],
+            "super-alt-ctrl-shift-]": "pane::ActivateNextItem",
+            "super-alt-ctrl-shift-[": "pane::ActivatePreviousItem",
+            "super-alt-ctrl-shift-d [": "pane::SwapItemLeft",
+            "super-alt-ctrl-shift-d ]": "pane::SwapItemRight",
         },
     },
 
@@ -86,10 +86,10 @@
     {
         "context": "Workspace",
         "bindings": {
-            "cmd-e": "workspace::ToggleLeftDock",
-            "cmd-shift-e": "project_panel::ToggleFocus",
-            "cmd-shift-b": "outline_panel::ToggleFocus",
-            //"cmd-u": "multi_workspace::ToggleWorkspaceSidebar",
+            "super-e": "workspace::ToggleLeftDock",
+            "super-shift-e": "project_panel::ToggleFocus",
+            "super-shift-b": "outline_panel::ToggleFocus",
+            //"cjmd-u": "multi_workspace::ToggleWorkspaceSidebar",
             // checke nicht warum der nicht geht
         },
     },
@@ -97,41 +97,41 @@
     {
         "context": "(Editor && mode == full)",
         "bindings": {
-            "cmd-b": [
+            "super-b": [
                 "buffer_search::Deploy",
                 {
                     "focus": false,
                 },
             ],
-            "cmd-e": "workspace::ToggleLeftDock",
-            "cmd-shift-e": "project_panel::ToggleFocus",
+            "super-e": "workspace::ToggleLeftDock",
+            "super-shift-e": "project_panel::ToggleFocus",
         },
     },
     {
         "context": "AgentPanel",
         "bindings": {
-            "cmd-shift-e": "project_panel::ToggleFocus",
+            "super-shift-e": "project_panel::ToggleFocus",
         },
     },
     {
         "context": "Workspace",
         "bindings": {
-            "alt-r": "agent::ToggleFocus",
-            "alt-y": "collab_panel::ToggleFocus",
-            "alt-t": "terminal_panel::Toggle",
-            "alt-g": "git_panel::ToggleFocus",
+            "super-alt-ctrl-shift-r": "agent::ToggleFocus",
+            "super-alt-ctrl-shift-y": "collab_panel::ToggleFocus",
+            "super-alt-ctrl-shift-t": "terminal_panel::Toggle",
+            "super-alt-ctrl-shift-g": "git_panel::ToggleFocus",
         },
     },
     {
         "context": "Workspace",
         "bindings": {
-            "alt-w": "multi_workspace::ToggleWorkspaceSidebar"
+            "super-alt-ctrl-shift-w": "multi_workspace::ToggleWorkspaceSidebar"
         }
     },
     {
         "context": "Workspace",
-        "unbind": {
-            "alt-cmd-j": "multi_workspace::ToggleWorkspaceSidebar"
+        "unbind": { //unbinded die default keybinds
+            "alt-super-j": "multi_workspace::ToggleWorkspaceSidebar"
         }
     }
 ]

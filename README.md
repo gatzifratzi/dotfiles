@@ -25,9 +25,10 @@
 # Homebrew sachen
 
 ## Casks
-- middleclick
+- middleclick(geht auch per vorssaint, aber ich find gut das das ne eigene app ist die immer laueft, vorssaint schliesse ich manchmal)
 - boring-notch
-- stats
+- vorssaint(ich versteh nicht wie diese app so gut sein kann)
+- stats(obsolete durch vorssaint)
 - pika
 - ghostty
 - helium-browser
@@ -37,11 +38,10 @@
 - skim
 - spotify
 - rstudio
-- (google-drive)
 - iina
 - transmission
 - whatcable
-- (unnaturalscrollwheel)
+- (unnaturalscrollwheel)(obsolete durch vorssaint)
 - itsycal(geht auf m4 irgendwie nicht)
 - Protonvpn
 - proton-mail

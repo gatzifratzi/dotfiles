@@ -56,7 +56,7 @@ initial-window = true
 notify-on-command-finish = unfocused
 notify-on-command-finish-action = no-bell,notify
 bell-features = no-system, attention, title
-macos-window-shadow = false
+macos-window-shadow = true
 macos-titlebar-style = tabs
 macos-window-buttons = visible
 macos-titlebar-proxy-icon = visible
@@ -77,14 +77,14 @@ quick-terminal-space-behavior = move
 keybind = global:control+command+option+space=toggle_quick_terminal
 
 #tab navigation
-keybind = alt+left_bracket=previous_tab
-keybind = alt+right_bracket=next_tab
-keybind = alt+shift+left_bracket=move_tab:-1
-keybind = alt+shift+right_bracket=move_tab:1
+keybind = super-alt-ctrl-shift+left_bracket=previous_tab
+keybind = super-alt-ctrl-shift+right_bracket=next_tab
+keybind = super-alt-ctrl-shift+d>left_bracket=move_tab:-1
+keybind = super-alt-ctrl-shift+d>right_bracket=move_tab:1
 
 #split navigation
-keybind = alt+d=new_split:auto
-keybind = alt+h=goto_split:left
-keybind = alt+j=goto_split:down
-keybind = alt+k=goto_split:up
-keybind = alt+l=goto_split:right
+keybind = super-alt-ctrl-shift+d=new_split:auto
+keybind = super-alt-ctrl-shift+h=goto_split:left
+keybind = super-alt-ctrl-shift+j=goto_split:down
+keybind = super-alt-ctrl-shift+k=goto_split:up
+keybind = super-alt-ctrl-shift+l=goto_split:right

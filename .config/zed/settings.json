@@ -7,11 +7,10 @@
 {
     //STANDARD SACHEN
 
-    "diff_view_style": "split",
     "vim_mode": true,
     "restore_on_startup": "last_session",
     "colorize_brackets": true,
-    "preferred_line_length": 120,
+    "preferred_line_length": 140,
     "show_wrap_guides": true,
     "soft_wrap": "bounded",
     "lsp_document_colors": "background", // fuer die css farben und so

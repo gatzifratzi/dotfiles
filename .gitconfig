@@ -5,4 +5,4 @@
 	email = gatzifratzi@gatzweb.de
 	signingkey = 15426DD3589182A5
 [commit]
-	gpgsign = true
+	#gpgsign = true
