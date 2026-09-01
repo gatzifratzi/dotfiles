@@ -77,14 +77,12 @@ quick-terminal-space-behavior = move
 keybind = global:control+command+option+space=toggle_quick_terminal
 
 #tab navigation
-keybind = super-alt-ctrl-shift+left_bracket=previous_tab
-keybind = super-alt-ctrl-shift+right_bracket=next_tab
-keybind = super-alt-ctrl-shift+d>left_bracket=move_tab:-1
-keybind = super-alt-ctrl-shift+d>right_bracket=move_tab:1
+keybind = command+option+control+shift+left_bracket=previous_tab
+keybind = command+option+control+shift+right_bracket=next_tab
 
 #split navigation
-keybind = super-alt-ctrl-shift+d=new_split:auto
-keybind = super-alt-ctrl-shift+h=goto_split:left
-keybind = super-alt-ctrl-shift+j=goto_split:down
-keybind = super-alt-ctrl-shift+k=goto_split:up
-keybind = super-alt-ctrl-shift+l=goto_split:right
+keybind = command+option+control+shift+d=new_split:auto
+keybind = command+option+control+shift+h=goto_split:left
+keybind = command+option+control+shift+j=goto_split:down
+keybind = command+option+control+shift+k=goto_split:up
+keybind = command+option+control+shift+l=goto_split:right
