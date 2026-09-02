@@ -59,7 +59,7 @@ prepend_keymap = [
   { on = [
     "c",
     "<S-p>",
-  ], run = "copy dirname", desc = "dirpath" },
+  ], run = "copy dirpath", desc = "dirpath" },
   { on = [
     "c",
     "f",

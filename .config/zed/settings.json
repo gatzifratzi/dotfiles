@@ -177,7 +177,7 @@
 
     // debugger
     "debugger": {
-        "dock": "right",
+        "dock": "bottom",
         "button": true,
         "save_breakpoints": true,
     },
