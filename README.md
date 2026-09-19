@@ -25,7 +25,7 @@
 # Homebrew sachen
 
 ## Casks
-- middleclick(geht per vorssaint, find ne einzelne app fuer core features aber gut)
+- middleclick(nutz ich jetzt per vorssaint, der dev hat auf freemium konzept gewechselt)
 - boring-notch
 - vorssaint(ich versteh nicht wie diese app so gut sein kann)
 - stats(obsolete durch vorssaint)
