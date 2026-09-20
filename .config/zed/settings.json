@@ -117,7 +117,7 @@
         },
         "inline_blame": {
             "enabled": true,
-            "show_commit_summary": false,
+            "show_commit_summary": true,
             "padding": 8,
         },
         "blame": {
@@ -131,11 +131,12 @@
     },
     //git panel
     "git_panel": {
+        "sort_by": "name",
+        "group_by": "staging",
         "file_icons": true,
         "tree_view": true,
         "dock": "left",
         "default_width": 480,
-        "sort_by_path": true, //die settings mal bischen testen. ich wiess nicht ob ich die sortierung nach tracked/untracked brauche und dann ist die ja cooler.
     },
 
     //Project Panel
