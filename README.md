@@ -89,11 +89,18 @@
 - log
 - python lsp
 - blad runner 2049
-- rose pine
+- modus themes
 - kanagawa themes
 - 0x96f theme
+- tombi
+- ember theme
 - latx
 - gemini
 - ngxvamp
 - gruvbox baby
 - srcery
+
+# Befehl fuer Skim 
+Preset: Custom 
+Command: /usr/local/bin/zed
+ARguments: -e "%file:%line
