@@ -3,6 +3,6 @@
 # Please adapt and uncomment the following lines:
 	name = jakob
 	email = gatzifratzi@gatzweb.de
-	signingkey = 15426DD3589182A5
+	signingkey = 63C62CDC11B722A6
 [commit]
 	gpgsign = true
