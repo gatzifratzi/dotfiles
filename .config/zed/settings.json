@@ -109,6 +109,7 @@
     },
 
     //Git
+    "diff_view_style": "unified",
     "git": {
         "git_gutter": "tracked_files",
         "hunk_style": "staged_hollow",
@@ -195,6 +196,9 @@
 
     // KI Agent
     "agent": {
+        "threads_sidebar": {
+            "position": "right"
+        },
         "show_turn_stats": true,
         "single_file_review": false,
         "flexible": true,
@@ -210,7 +214,6 @@
                 "enable_thinking": true,
             },
         ],
-        "sidebar_side": "right",
         "tool_permissions": {
             "default": "allow",
         },
