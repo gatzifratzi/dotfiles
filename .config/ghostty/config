@@ -45,6 +45,7 @@ mouse-hide-while-typing = true
 cursor-click-to-move = true
 
 # RANDOM
+quit-after-last-window-closed = true
 shell-integration = zsh
 clipboard-read = allow
 clipboard-write = allow
@@ -56,8 +57,8 @@ initial-window = true
 notify-on-command-finish = unfocused
 notify-on-command-finish-action = no-bell,notify
 bell-features = no-system, attention, title
-macos-window-shadow = true
-macos-titlebar-style = transparent #bis zu nem ghostty update das die tabs option wieder fixed
+macos-window-shadow = false
+macos-titlebar-style = transparent
 macos-window-buttons = visible
 macos-titlebar-proxy-icon = visible
 macos-shortcuts = allow
