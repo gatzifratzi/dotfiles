@@ -231,12 +231,16 @@
         },
     },
     "agent_servers": {
-        },
+        "claude-acp": {
+            "type": "registry"
+        }
+    },
 
     // EDIT PREDICTIONS
     "show_edit_predictions": true,
     "edit_predictions_disabled_in": ["string", "comment"],
     "edit_predictions": {
+        "allow_data_collection": "default",
         "provider": "none", //schaltet die global ab
         "disabled_globs": null,
         "mode": "eager",
