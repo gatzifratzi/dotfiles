@@ -1,27 +1,27 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "3f2b882"
-hash = "336548d9f67926e12d5584f60b790f1"
+rev = "e0bbd20"
+hash = "347cc6b190eb0c2fd60513cc7ae37412"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "3f2b882"
-hash = "7b625412411be411153886894d9acaf"
+rev = "e0bbd20"
+hash = "17ebde15c4349f90aedbc45984b98db2"
 
 [[plugin.deps]]
 use = "orhnk/system-clipboard"
-rev = "75a5330"
-hash = "2eca70f99d25c661e0a92000843d001e"
+rev = "ed946c3"
+hash = "43fff18b85896a499105f621de458ea1"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:toggle-pane"
-rev = "3f2b882"
-hash = "15e5b67a241172cbb86b8fbf9e63692"
+rev = "e0bbd20"
+hash = "5b2fbef7d1513ce38ff72623a071a5e"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:mount"
-rev = "3f2b882"
-hash = "46cbdc05596a3ecd730b288e28c7079d"
+rev = "e0bbd20"
+hash = "ba1a606728adb75b091b6eaf3fd60372"
 
 [[flavor.deps]]
 use = "Chromium-3-Oxide/everforest-medium"
@@ -30,12 +30,12 @@ hash = "f7dc46200e53da5e94858630184a9220"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-mocha"
-rev = "be0b21d"
+rev = "1183892"
 hash = "ce320f877fe709b189433941aba747c4"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:dracula"
-rev = "be0b21d"
+rev = "1183892"
 hash = "40136c9a02e166067a36d9ad618887f2"
 
 [[flavor.deps]]
@@ -55,7 +55,7 @@ hash = "598126216cc2ab55f98955788f0eb3f3"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-latte"
-rev = "be0b21d"
+rev = "1183892"
 hash = "273ee53369ccfbf7feb9b0c65e387ed8"
 
 [[flavor.deps]]
@@ -65,8 +65,8 @@ hash = "15ae5f83d3770b9ffc276af77f642e2b"
 
 [[flavor.deps]]
 use = "gosxrgxx/flexoki-light"
-rev = "1b1e677"
-hash = "a80630a255909a511aba8a98d115bc15"
+rev = "55e3fc5"
+hash = "7eca1cc36b7e140340ce4759ee381ca2"
 
 [[flavor.deps]]
 use = "ficd0/ashen:ashen"

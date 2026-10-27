@@ -6,8 +6,8 @@ require("git"):setup {
 
 --  full Border Plugin  --
 require("full-border"):setup {
-    -- Available values: ui.Border.PLAIN, ui.Border.ROUNDED
-    type = ui.Border.ROUNDED,
+	-- Available values: "plain", "rounded"
+	set = "rounded",
 }
 
 --  relative motions plugin -- plugin geht in 25.12.29 nicht mehr. Wird aber bestimmt geupdated
