@@ -45,7 +45,7 @@
     "theme": {
         "mode": "system",
         "light": "Modus Operandi",
-        "dark": "Zedokai Darker Classic",
+        "dark": "Catbox",
     },
     "icon_theme": "Catppuccin Macchiato",
     "unnecessary_code_fade": 0.5,
