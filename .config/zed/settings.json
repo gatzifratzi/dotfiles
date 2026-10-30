@@ -44,8 +44,8 @@
     // Modus, srcery, ember, gruvbox baby, kanagawa, blade runner
     "theme": {
         "mode": "system",
-        "light": "Ember Glass",
-        "dark": "Srcery",
+        "light": "Modus Operandi",
+        "dark": "Zedokai Darker Classic",
     },
     "icon_theme": "Catppuccin Macchiato",
     "unnecessary_code_fade": 0.5,
