@@ -1,11 +1,11 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "e0bbd20"
+rev = "25d992d"
 hash = "347cc6b190eb0c2fd60513cc7ae37412"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "e0bbd20"
+rev = "25d992d"
 hash = "17ebde15c4349f90aedbc45984b98db2"
 
 [[plugin.deps]]
@@ -15,13 +15,13 @@ hash = "43fff18b85896a499105f621de458ea1"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:toggle-pane"
-rev = "e0bbd20"
+rev = "25d992d"
 hash = "5b2fbef7d1513ce38ff72623a071a5e"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:mount"
-rev = "e0bbd20"
-hash = "ba1a606728adb75b091b6eaf3fd60372"
+rev = "25d992d"
+hash = "dbfc342600993eefbb055bff145fa22a"
 
 [[flavor.deps]]
 use = "Chromium-3-Oxide/everforest-medium"
@@ -72,3 +72,13 @@ hash = "7eca1cc36b7e140340ce4759ee381ca2"
 use = "ficd0/ashen:ashen"
 rev = "2da901f"
 hash = "ba991622420e9e408b77f73c5815d066"
+
+[[flavor.deps]]
+use = "melindachang/kanagawa-paper"
+rev = "bcd0298"
+hash = "3ef6aa5f92e3c029760c292dc3b80783"
+
+[[flavor.deps]]
+use = "malick-tammal/monokai"
+rev = "57be034"
+hash = "9fbb5104646853a933446746b88118a6"

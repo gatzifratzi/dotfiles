@@ -43,11 +43,15 @@
     // Skeletor, Sandstorm Dark: manuell
     // Modus, srcery, ember, gruvbox baby, kanagawa, blade runner
     "theme": {
-        "mode": "system",
-        "light": "Modus Operandi",
-        "dark": "Catbox",
+        "mode": "light",
+        "light": "Modus Operandi Tinted",
+        "dark": "zedokai-darkest-machine",
     },
-    "icon_theme": "Catppuccin Macchiato",
+    "icon_theme": {
+        "mode": "light",
+        "light": "Catppuccin Macchiato",
+        "dark": "Catppuccin Macchiato"
+    },
     "unnecessary_code_fade": 0.5,
 
     //Fonts
@@ -198,6 +202,7 @@
 
     // KI Agent
     "agent": {
+        "notify_when_agent_waiting": "all_screens",
         "threads_sidebar": {
             "position": "right"
         },
@@ -232,6 +237,10 @@
     },
     "agent_servers": {
         "claude-acp": {
+            "default_config_options": {
+                "mode": "acceptEdits",
+                "fast": false
+            },
             "type": "registry"
         }
     },

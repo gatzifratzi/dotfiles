@@ -1,5 +1,5 @@
 # THEME
-theme = dark:floraverse, light:horizon bright
+theme = dark:Phala Green Dark, light:horizon bright
 # background-image = /Users/jakob/Pictures/laptopBilder/hintergründe/nebula/Dark Waves/P13.png
 background-image-opacity = 0.15
 background-image-fit = cover
@@ -7,26 +7,26 @@ background-image-fit = cover
 # sea shells, floraverse, Cyberpunk Scarlet Protocol, cyberpunk, Fun Forrest, popping and locking, horizon bright
 
 #FONT
-font-family = Monaspace Krypton NF
+font-family = kaspace Neon NF
 font-style = medium
-font-family-bold = Monocraft
-font-style-bold = semibold
+font-family-bold = Monaspace Krypton NF
+font-style-bold = Bold
 font-family-italic = Monaspace Radon NF
 font-style-italic = medium
-font-style-bold-italic = extrabold italic
-font-size = 17
+font-style-bold-italic = Bold italic
+font-size = 16
 font-shaping-break = cursor
 font-feature = calt=1, liga=1, ss01=1, ss03=1, ss06=1, ss08=1, ss09=1, ss10=1
 
 # WINDOW
 window-theme = auto
-window-width = 70
+window-width = 79
 window-height = 25
 window-new-tab-position = end
 window-step-resize = true
 window-decoration = auto
-window-position-x = 25
-window-position-y = 25
+window-position-x = 33
+window-position-y = 33
 window-save-state = never
 
 background-opacity = 0.9
@@ -39,9 +39,9 @@ window-padding-balance = true
 minimum-contrast = 1.1
 
 # CURSOR
-cursor-style = bar
+# cursor-style = block
 cursor-style-blink = true
-mouse-hide-while-typing = true
+mouse-hide-while-typing = false
 cursor-click-to-move = true
 
 # RANDOM

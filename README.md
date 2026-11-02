@@ -47,6 +47,8 @@
 - proton-mail
 - proton-drive
 - Steam (ist gerade normalruntergeladen, weil nur so beta erreichbar ist.)
+- claude-code
+- t3-code
 
 ## formulae
 - stow
@@ -71,6 +73,8 @@
 - media-info
 - exiftool
 - pinentry-mac (fuer gpg passphrase `echo "pinentry-program $(brew --prefix)/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf` ich weiss nicht welches programm das normale pinentry oder gnupg mit installiert hat)
+- glab (gitlab cli)
+- gh (github cli)
 
 # MacStore Sachen
 - Xcode

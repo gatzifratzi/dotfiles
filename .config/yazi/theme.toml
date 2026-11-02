@@ -1,6 +1,6 @@
 [flavor]
 light = "catppuccin-latte"
-dark = "dracula"
+dark = "monokai"
 
 # fuer everforest-medium
 # [mgr]
