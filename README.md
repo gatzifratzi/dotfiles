@@ -8,6 +8,11 @@
 ### key repeat
 - `defaults write -g ApplePressAndHoldEnabled -bool false`
 
+### macos keybinds die man nicht in settings aendern kann
+- cmd-ctrl-d:
+`defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 70 '<dict><key>enabled</key><false/></dict>'
+/System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/activateSettings -u`
+
 # coole fonts:
 
 - [Monaspace](https://monaspace.githubnext.com/) die beste font family die ich je gefunden habe

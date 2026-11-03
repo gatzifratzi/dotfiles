@@ -16,8 +16,7 @@
     "soft_wrap": "bounded",
     "lsp_document_colors": "background", // fuer die css farben und so
     "current_line_highlight": "all",
-    "when_closing_with_no_tabs": "keep_window_open",
-    "cli_default_open_behavior": "new_window",
+    "when_closing_with_no_tabs": "close_window",
     "use_system_prompts": false,
     "use_system_path_prompts": false,
     "use_smartcase_search": true,
@@ -202,25 +201,16 @@
 
     // KI Agent
     "agent": {
+        "expand_edit_card": false,
+        "expand_terminal_card": false,
+        "terminal_init_command": "",
         "notify_when_agent_waiting": "all_screens",
         "threads_sidebar": {
             "position": "right"
         },
         "show_turn_stats": true,
-        "single_file_review": false,
+        "single_file_review": true,
         "flexible": true,
-        "favorite_models": [
-            {
-                "provider": "google",
-                "model": "gemini-3-flash-preview",
-                "enable_thinking": false,
-            },
-            {
-                "provider": "google",
-                "model": "gemini-3.1-pro-preview",
-                "enable_thinking": true,
-            },
-        ],
         "tool_permissions": {
             "default": "allow",
         },
@@ -229,15 +219,17 @@
         "enabled": true,
         "button": true,
         "dock": "right",
-        "default_model": {
-            "effort": "high",
-            "provider": "google",
-            "model": "gemini-3-flash-preview",
-        },
     },
     "agent_servers": {
         "claude-acp": {
+            "favorite_config_option_values": {
+                "model": [
+                    "opus",
+                    "sonnet"
+                ]
+            },
             "default_config_options": {
+                "model": "opus",
                 "mode": "acceptEdits",
                 "fast": false
             },
