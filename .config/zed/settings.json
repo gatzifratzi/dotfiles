@@ -58,9 +58,9 @@
     "agent_ui_font_size": 18,
     "agent_buffer_font_size": 18,
     "ui_font_size": 16,
-    "ui_font_family": "Monocraft",
+    "ui_font_family": "Monaspace Xenon NF",
     "buffer_font_size": 18,
-    "buffer_font_weight": 500, // default 400
+    "buffer_font_weight": 400, // default 400
     "buffer_font_family": "jakobsArgon",
     "buffer_line_height": "comfortable",
     "buffer_font_features": {
