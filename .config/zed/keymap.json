@@ -76,8 +76,8 @@
             "super-7": ["pane::ActivateItem", 6],
             "super-8": ["pane::ActivateItem", 7],
             "super-9": ["pane::ActivateItem", 8],
-            "super-alt-ctrl-shift-]": "pane::ActivateNextItem",
-            "super-alt-ctrl-shift-[": "pane::ActivatePreviousItem",
+            "super-alt-ctrl-}": "pane::ActivateNextItem",
+            "super-alt-ctrl-{": "pane::ActivatePreviousItem",
             "super-alt-ctrl-shift-d [": "pane::SwapItemLeft",
             "super-alt-ctrl-shift-d ]": "pane::SwapItemRight",
         },
@@ -90,8 +90,13 @@
             "super-e": "workspace::ToggleLeftDock",
             "super-shift-e": "project_panel::ToggleFocus",
             "super-shift-b": "outline_panel::ToggleFocus",
-            //"cjmd-u": "multi_workspace::ToggleWorkspaceSidebar",
-            // checke nicht warum der nicht geht
+            "super-alt-ctrl-shift-r": "agent::ToggleFocus",
+            "super-alt-ctrl-shift-y": "collab_panel::ToggleFocus",
+            "super-alt-ctrl-shift-t": "terminal_panel::Toggle",
+            "super-alt-ctrl-shift-g": "git_panel::ToggleFocus",
+            "super-alt-ctrl-shift-e": "debug_panel::ToggleFocus",
+            "super-alt-ctrl-shift-w": "multi_workspace::ToggleWorkspaceSidebar",
+            "ctrl-alt-cmd-shift-space": "editor::ToggleFocus",
         },
     },
     // cmd-e und cmd-b default rollen getauscht
@@ -113,22 +118,6 @@
         "bindings": {
             "super-shift-e": "project_panel::ToggleFocus",
         },
-    },
-    {
-        "context": "Workspace",
-        "bindings": {
-            "super-alt-ctrl-shift-r": "agent::ToggleFocus",
-            "super-alt-ctrl-shift-y": "collab_panel::ToggleFocus",
-            "super-alt-ctrl-shift-t": "terminal_panel::Toggle",
-            "super-alt-ctrl-shift-g": "git_panel::ToggleFocus",
-        },
-    },
-    {
-        "context": "Workspace",
-        "bindings": {
-            "ctrl-alt-cmd-shift-e": "debug_panel::ToggleFocus",
-            "super-alt-ctrl-shift-w": "multi_workspace::ToggleWorkspaceSidebar"
-        }
     },
     {
         "context": "Workspace",

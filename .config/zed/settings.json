@@ -91,8 +91,8 @@
 
     //Active Pane Modifiers(split view)
     "active_pane_modifiers": {
+        "border_size": 2.0,
         "inactive_opacity": 0.9,
-        "border_size": 4,
     },
 
     //Tabs
@@ -229,6 +229,7 @@
                 ]
             },
             "default_config_options": {
+                "effort": "medium",
                 "model": "opus",
                 "mode": "acceptEdits",
                 "fast": false
