@@ -1,0 +1,191 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+    // // --- LATEX KEYBINDS ---
+    // {
+    //     //"context": "Workspace",
+    //     "context": "Editor && extension==tex", // This restricts the keybindings to tex files however does not work when in terminal
+    //     "bindings": {
+    //         "secondary-ctrl-v": ["task::Spawn", { "task_name": "forward_search_skim" }],
+    //         "secondary-ctrl-b": ["task::Spawn", { "task_name": "tectonic_skim" }],
+    //     },
+    // },
+    // --- Multi Cursor ---
+    {
+        "context": "Editor",
+        "bindings": {
+            "secondary-alt-ctrl-shift-p": ["editor::AddSelectionAbove", { "skip_soft_wrap": true }],
+            "secondary-alt-ctrl-shift-n": ["editor::AddSelectionBelow", { "skip_soft_wrap": true }],
+            // "secondary-shift-d": ["editor::SelectPrevious", { "replace_newest": false }],  für windows unbinded
+        },
+       //  "unbind": {"ctrl-secondary-d": ["editor::SelectPrevious",{ "replace_newest": false }]  für windows unbindet
+       // }
+    },
+    // --- PANES ---
+    {
+        "context": "Workspace",
+        "bindings": {
+            "secondary-alt-ctrl-shift-d d": "pane::SplitRight",
+            "secondary-alt-ctrl-shift-d c": "pane::SplitDown",
+            "secondary-alt-ctrl-shift-l": "workspace::ActivatePaneRight",
+            "secondary-alt-ctrl-shift-k": "workspace::ActivatePaneUp",
+            "secondary-alt-ctrl-shift-j": "workspace::ActivatePaneDown",
+            "secondary-alt-ctrl-shift-h": "workspace::ActivatePaneLeft",
+            "secondary-alt-ctrl-shift-d l": "workspace::SwapPaneRight",
+            "secondary-alt-ctrl-shift-d k": "workspace::SwapPaneUp",
+            "secondary-alt-ctrl-shift-d j": "workspace::SwapPaneDown",
+            "secondary-alt-ctrl-shift-d h": "workspace::SwapPaneLeft",
+        },
+    },
+
+    /// --- TAB Switching ---
+    {
+        "context": "Pane",
+        "bindings": {
+            "secondary-1": ["pane::ActivateItem", 0],
+            "secondary-2": ["pane::ActivateItem", 1],
+            "secondary-3": ["pane::ActivateItem", 2],
+            "secondary-4": ["pane::ActivateItem", 3],
+            "secondary-5": ["pane::ActivateItem", 4],
+            "secondary-6": ["pane::ActivateItem", 5],
+            "secondary-7": ["pane::ActivateItem", 6],
+            "secondary-8": ["pane::ActivateItem", 7],
+            "secondary-9": ["pane::ActivateItem", 8],
+            "secondary-alt-ctrl-}": "pane::ActivateNextItem",
+            "secondary-alt-ctrl-{": "pane::ActivatePreviousItem",
+            "secondary-alt-ctrl-shift-d [": "pane::SwapItemLeft",
+            "secondary-alt-ctrl-shift-d ]": "pane::SwapItemRight",
+        },
+    },
+
+    // --- NAVIGATION ---
+    {
+        "context": "Workspace",
+        "bindings": {
+            "alt-r": "workspace::ToggleRightDock",
+            "alt-e": "workspace::ToggleLeftDock",
+            "alt-j": "workspace::ToggleBottomDock",
+            "alt-shift-e": "project_panel::ToggleFocus",
+            "alt-shift-b": "outline_panel::ToggleFocus",
+            "secondary-alt-ctrl-shift-r": "agent::ToggleFocus",
+            "secondary-alt-ctrl-shift-i": "collab_panel::ToggleFocus",
+            "secondary-alt-ctrl-shift-t": "terminal_panel::Toggle",
+            "secondary-alt-ctrl-shift-g": "git_panel::ToggleFocus",
+            "secondary-alt-ctrl-shift-u": "debug_panel::ToggleFocus",
+            "secondary-alt-ctrl-shift-y": "multi_workspace::ToggleWorkspaceSidebar",
+            "secondary-alt-ctrl-shift-e": "editor::ToggleFocus",
+        },
+    },
+    // cmd-e und cmd-b default rollen getauscht
+    {
+        "context": "(Editor && mode == full)",
+        "bindings": {
+            "secondary-b": [
+                "buffer_search::Deploy",
+                {
+                    "focus": false,
+                },
+            ],
+            "alt-e": "workspace::ToggleLeftDock",
+            "alt-shift-e": "project_panel::ToggleFocus",
+        },
+    },
+    {
+        "context": "AgentPanel",
+        "bindings": {
+            "alt-shift-e": "project_panel::ToggleFocus",
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": { //unbinded die default keybinds
+            "secondary-shift-d": "debug_panel::ToggleFocus",
+            "alt-secondary-j": "multi_workspace::ToggleWorkspaceSidebar"
+        }
+    },
+    // --- UNBINDS FUER MACOS WM ---
+    // {
+    //     "context": "Editor",
+    //     "unbind": {
+    //         // "j k": ["workspace::SendKeystrokes", "escape"]
+    //         "ctrl-alt-h": "editor::DeleteToPreviousSubwordStart", //unbinded, damit macos commands fuer window management funktionieren
+    //         "ctrl-alt-f": "editor::MoveToNextSubwordEnd", //unbinded, damit macos commands fuer window management funktionieren
+    //         "ctrl-alt-shift-f": "editor::SelectToNextSubwordEnd", //unbinded, damit macos commands fuer window management funktionieren
+    //     },
+    // },
+
+    // --- WINDOWS Unbinds ---
+
+
+
+
+    {
+        "context": "Pane",
+        "unbind": {
+            "ctrl-alt-shift-t": [
+                "pane::CloseOtherItems",
+                {
+                    "close_pinned": false
+                }
+            ]
+        }
+    },
+    {
+        "context": "(vim_mode == helix_normal || vim_mode == helix_select) && !menu",
+        "unbind": {
+            "alt-e": "editor::MoveToEndOfLargerSyntaxNode"
+        }
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "alt-r": "workspace::ResetActiveDockSize"
+        }
+    },
+    {
+        "context": "Pane",
+        "unbind": {
+            "alt-r": "search::ToggleRegex"
+        }
+    },
+    {
+        "context": "ProjectSearchView",
+        "unbind": {
+            "alt-r": "search::ToggleRegex"
+        }
+    },
+    {
+        "context": "ProjectSearchBar",
+        "unbind": {
+            "alt-r": "search::ToggleRegex"
+        }
+    },
+    {
+        "context": "AcpThread",
+        "unbind": {
+            "alt-r": "search::ToggleRegex"
+        }
+    },
+    {
+        "context": "Editor && edit_prediction",
+        "unbind": {
+            "alt-j": "editor::AcceptNextLineEditPrediction"
+        }
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "ctrl-j": "workspace::ToggleBottomDock"
+        }
+    },
+    {
+        "unbind": {
+            "ctrl-alt-shift-d": "dev::ResetFrameOverlayStats"
+        }
+    }
+]
