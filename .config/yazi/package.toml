@@ -1,11 +1,11 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "25d992d"
+rev = "1ef5fe0"
 hash = "347cc6b190eb0c2fd60513cc7ae37412"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "25d992d"
+rev = "1ef5fe0"
 hash = "17ebde15c4349f90aedbc45984b98db2"
 
 [[plugin.deps]]
@@ -15,13 +15,13 @@ hash = "43fff18b85896a499105f621de458ea1"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:toggle-pane"
-rev = "25d992d"
+rev = "1ef5fe0"
 hash = "5b2fbef7d1513ce38ff72623a071a5e"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:mount"
-rev = "25d992d"
-hash = "dbfc342600993eefbb055bff145fa22a"
+rev = "1ef5fe0"
+hash = "f0dcc0ea71d5c59ce0d527f4b8a3937b"
 
 [[flavor.deps]]
 use = "Chromium-3-Oxide/everforest-medium"
@@ -30,13 +30,13 @@ hash = "f7dc46200e53da5e94858630184a9220"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-mocha"
-rev = "1183892"
-hash = "ce320f877fe709b189433941aba747c4"
+rev = "38c08d8"
+hash = "57d33c9c6107017bf8afc8df186356c5"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:dracula"
-rev = "1183892"
-hash = "40136c9a02e166067a36d9ad618887f2"
+rev = "38c08d8"
+hash = "4879c0dfb12f728c92c09e8749728f6f"
 
 [[flavor.deps]]
 use = "dangooddd/kanagawa"
@@ -55,8 +55,8 @@ hash = "598126216cc2ab55f98955788f0eb3f3"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-latte"
-rev = "1183892"
-hash = "273ee53369ccfbf7feb9b0c65e387ed8"
+rev = "38c08d8"
+hash = "f4044a93fcd86ac34f170f9f69d40a2"
 
 [[flavor.deps]]
 use = "Mintass/rose-pine-dawn"
